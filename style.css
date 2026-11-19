@@ -2211,6 +2211,7 @@ color:#07111f;
 
 }
 
+#room-image{ width:100%; height:auto; display:block; border-radius:12px; margin-bottom:16px; }
 .seat-info-area{
 
 background:rgba(255,255,255,.06);
@@ -2389,4 +2390,36 @@ img{
     .service-time-list{ grid-template-columns:1fr; gap:12px; }
     .celeste-accordion summary{ padding:15px 16px; font-size:16px; }
     .accordion-content{ padding:0 16px 16px; }
+}
+
+/* iOS Safari対策（2026-11-19）：文字の自動拡大でレイアウトが広がるのを止め、
+   横はみ出しは clip で完全に抑える（stickyヘッダーは hidden だと効かなくなるため clip を使用） */
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+html, body{ overflow-x:hidden; overflow-x:clip; }
+
+/* 幅90%指定のセクションは padding を含めて幅を計算する（はみ出し防止） */
+.operation-info, .news, .service, .station-guide,
+.celeste-intro, .celeste-features, .celeste-info, .celeste-spec, .celeste-service-time{ box-sizing:border-box; }
+
+/* セレスト予約・座席ページのスマホ最適化（2026-11-19） */
+@media (max-width: 768px){
+    .reserve-page{ padding:30px 0 50px; }
+    .reserve-form{ padding:22px 18px; }
+    .form-row{ grid-template-columns:1fr; gap:14px; }
+    .form-group input, .form-group select{ padding:12px 14px; min-height:48px; }
+    .reserve-result-section{ padding:22px 18px; margin-top:26px; }
+    .reserve-result-section h2{ font-size:22px; }
+    .seat-layout{ grid-template-columns:1fr; gap:20px; }
+    .room-grid{ gap:12px; }
+    .room{ padding:16px 12px; font-size:17px; }
+    .seat-info-area{ padding:20px 18px; }
+}
+
+/* 幅90%セクションの box-sizing 追加と、セレスト予約の日付入力はみ出し・CTAのモバイル調整（2026-11-19 v70） */
+.celeste-cta, .reserve-hero, .reserve-result-section{ box-sizing:border-box; }
+@media (max-width: 768px){
+    .form-group{ min-width:0; }
+    input[type="date"], input[type="time"]{ display:block; width:100%; min-width:0; max-width:100%; box-sizing:border-box; -webkit-appearance:none; appearance:none; }
+    .celeste-cta{ padding:26px 18px; margin-top:40px; }
+    .celeste-cta h2{ font-size:24px; }
 }

@@ -3849,7 +3849,10 @@ img{
         margin:0;
     }
     .time-field{
-        flex:1 1 auto;
+        flex:0 0 auto;
+    }
+    .search-field{
+        flex:0 0 auto;
     }
 }
 .search-error{
@@ -4142,3 +4145,8 @@ img{
 @media (max-width: 768px){
     html, body{ overflow-x:hidden; }
 }
+
+/* iOS Safari対策（2026-11-19）：文字の自動拡大でレイアウトが広がるのを止め、
+   横はみ出しは clip で完全に抑える（stickyヘッダーは hidden だと効かなくなるため clip を使用） */
+html{ -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+html, body{ overflow-x:hidden; overflow-x:clip; }

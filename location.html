@@ -47,6 +47,10 @@
     #refreshBtn{margin-left:0;}
 }
 .location-clock{font-size:14px;color:#334;}
+.dir-toggle{display:inline-flex;border:2px solid #c9d4e2;border-radius:8px;overflow:hidden;}
+.dir-btn{background:#fff;border:none;padding:8px 12px;font-size:13.5px;font-weight:700;color:#334;cursor:pointer;}
+.dir-btn + .dir-btn{border-left:2px solid #c9d4e2;}
+.dir-btn.active{background:#004A99;color:#fff;}
 .location-clock span{font-weight:700;font-size:17px;color:#10243e;}
 #refreshBtn{margin-left:auto;background:#004A99;color:#fff;border:none;border-radius:8px;padding:9px 18px;font-size:14px;cursor:pointer;}
 #refreshBtn:hover{background:#0a5cbd;}
@@ -65,6 +69,7 @@
 .diagram-head .dh-center{color:#667;}
 .diagram-scroll{overflow-x:auto;padding-bottom:6px;}
 .diagram{position:relative;background:#fff;border:1px solid #dde3ea;border-radius:12px;overflow:hidden;margin:0 auto;}
+.diagram.ring-mode::before{display:none;}
 .diagram::before{content:"";position:absolute;left:var(--rail-x,50%);top:0;bottom:0;width:4px;margin-left:-2px;background:var(--line-color,#004A99);opacity:.85;}
 .branch-y{position:absolute;left:0;top:0;z-index:0;pointer-events:none;}
 .branch-col-label{position:absolute;transform:translateX(-50%);font-size:10.5px;font-weight:700;color:var(--line-color,#004A99);background:#fff;border:1px solid var(--line-color,#004A99);border-radius:4px;padding:0 5px;z-index:2;white-space:nowrap;}
@@ -112,6 +117,7 @@
 
     <div class="location-controls">
         <label>路線<select id="lineSelect"></select></label>
+        <div class="dir-toggle" role="group" aria-label="表示する方向"><button type="button" class="dir-btn active" data-dir="both">両方向</button><button type="button" class="dir-btn" data-dir="down">下りのみ</button><button type="button" class="dir-btn" data-dir="up">上りのみ</button></div>
         <div class="location-clock">現在時刻 <span id="clock">--:--:--</span></div>
         <button id="refreshBtn" type="button">更新</button>
     </div>
@@ -467,11 +473,66 @@ function canonicalStations(trains) {
         }
         reversed = !!best && best.direction === "上り";
     }
-    const rows = [];
-    for (const s of best.stops) {
-        if (rows[rows.length - 1] !== s.station) rows.push(s.station);
-    }
+    const seqOf = t => {
+        const out = [];
+        for (const s of t.stops) {
+            if (out[out.length - 1] !== s.station) out.push(s.station);
+        }
+        return out;
+    };
+    const rows = seqOf(best);
     if (reversed) rows.reverse();
+    // 最長列車だけでは全駅をカバーできない路線がある（扶桑本線は区間別ファイルの
+    // 断片列車が混ざり、最長列車=特急の停車駅しか並ばない／田原線は直通リンク列車が最長）。
+    // 他の列車にしか出てこない駅を、各列車の運行順序と矛盾しない位置へ差し込んで全駅を並べる。
+    const inRows = new Set(rows);
+    let idxOf = new Map();
+    const rebuildIdx = () => {
+        idxOf = new Map();
+        rows.forEach((n, i) => { if (!idxOf.has(n)) idxOf.set(n, i); });
+    };
+    rebuildIdx();
+    const ordered = [...trains].sort((a, b) => b.stops.length - a.stops.length);
+    for (const t of ordered) {
+        if (t === best) continue;
+        const seq = seqOf(t);
+        if (t.direction === "上り") seq.reverse();
+        const inserts = new Map(); // 挿入先（その駅の直前）→ 駅名リスト。rows.length は末尾
+        const pendingSet = new Set();
+        let anchor = -1;
+        let pending = [];
+        for (const st of seq) {
+            if (inRows.has(st)) {
+                const j = idxOf.get(st);
+                if (anchor >= 0 && j < anchor) continue; // 順序が矛盾する駅は無視
+                if (anchor >= 0 && j === anchor && !pending.length) continue; // 同じ駅の再訪
+                if (pending.length) {
+                    if (!inserts.has(j)) inserts.set(j, []);
+                    inserts.get(j).push(...pending);
+                    pending = [];
+                }
+                anchor = j;
+            } else if (!pendingSet.has(st)) {
+                pendingSet.add(st);
+                pending.push(st);
+            }
+        }
+        if (pending.length) {
+            if (!inserts.has(rows.length)) inserts.set(rows.length, []);
+            inserts.get(rows.length).push(...pending);
+        }
+        if (inserts.size) {
+            const next = [];
+            for (let i = 0; i <= rows.length; i++) {
+                if (inserts.has(i)) next.push(...inserts.get(i));
+                if (i < rows.length) next.push(rows[i]);
+            }
+            rows.length = 0;
+            rows.push(...next);
+            for (const list of inserts.values()) for (const n of list) inRows.add(n);
+            rebuildIdx();
+        }
+    }
     return rows;
 }
 function trainEvents(train) {
@@ -806,6 +867,8 @@ function destinationOf(train) {
     return evs.length ? evs[evs.length - 1].station : "";
 }
 let renderSeq = 0;
+let dirFilter = "both";
+const HIDDEN_TYPES = new Set(["回送", "試運転", "試", "貨物"]);
 const TYPE_GROUPS_GENERIC = [
     { key: "local", label: "各停・普通", types: ["各停", "普通"], color: "#5b7a99" },
     { key: "rinji", label: "臨時", types: ["臨時"], color: "#8d6e63" },
@@ -817,7 +880,7 @@ const TYPE_GROUPS_GENERIC = [
     { key: "kaisou", label: "回送・試運転", types: ["回送", "試運転"], color: "#9e9e9e" },
 ];
 function groupsFor(lineName, trains) {
-    const present = new Set(trains.map(t => t.type));
+    const present = new Set(trains.map(t => t.type).filter(t => !HIDDEN_TYPES.has(t)));
     if (lineName === "中央高速線") {
         const cols = { "しまなみ": "#f08300", "うみかぜ": "#1b9bd8", "てんりゅう": "#009b8f", "すいせい": "#d9001b" };
         return ["しまなみ", "うみかぜ", "てんりゅう", "すいせい"].filter(nm => present.has(nm))
@@ -858,6 +921,179 @@ function iconLabel(train, lineName) {
     }
     return destinationOf(train).charAt(0);
 }
+
+// ===== 環状線（都心環状線・吹雪環状線）の円形路線図 =====
+// この2路線のkm軸は1分=1kmで作られており、最終駅→始発駅の閉合区間も最速所要分=kmで数えられる。
+// 下り=km増加方向（時計回り）、上り=km減少方向（反時計回り）で全列車が周回する（データ確認済み）。
+const RING_LINES = new Set(["都心環状線", "吹雪環状線"]);
+function ringGeometry(lineName) {
+    const axis = (kmDataCache || {})[lineName];
+    if (!axis) return null;
+    const stations = Object.keys(axis).sort((a, b) => axis[a] - axis[b]);
+    const first = stations[0], last = stations[stations.length - 1];
+    let closing = null;
+    for (const t of currentTrains) {
+        const evs = trainEvents(t);
+        for (let i = 0; i < evs.length - 1; i++) {
+            const a = evs[i], b = evs[i + 1];
+            if (a.station === b.station) continue;
+            if ((a.station === last && b.station === first) || (a.station === first && b.station === last)) {
+                const d = Math.abs(b.t - a.t);
+                if (d > 0 && (closing === null || d < closing)) closing = d;
+            }
+        }
+    }
+    if (closing === null) closing = 2;
+    return { stations, axis, L: axis[last] + closing };
+}
+function ringPositionKm(train, geo, now) {
+    const evs = trainEvents(train).map(ev => ({ station: ev.station, kind: ev.kind, t: ev.t }));
+    if (evs.length < 2) return null;
+    let offset = 0;
+    for (let i = 1; i < evs.length; i++) {
+        if (evs[i].t + offset < evs[i - 1].t) offset += 1440;
+        if (offset) evs[i] = { station: evs[i].station, kind: evs[i].kind, t: evs[i].t + offset };
+    }
+    const first = evs[0], last = evs[evs.length - 1];
+    const L = geo.L, axis = geo.axis;
+    const down = train.direction !== "上り";
+    const kms = [axis[evs[0].station] != null ? axis[evs[0].station] : 0];
+    for (let i = 1; i < evs.length; i++) {
+        const prev = axis[evs[i - 1].station] || 0, cur = axis[evs[i].station] || 0;
+        const delta = down ? (((cur - prev) % L) + L) % L : -(((prev - cur) % L) + L) % L;
+        kms.push(kms[i - 1] + delta);
+    }
+    let nowIn = null;
+    for (const cand of [now, now + 1440]) {
+        if (cand >= first.t && cand <= last.t) { nowIn = cand; break; }
+    }
+    if (nowIn === null) {
+        // 環状運転の継ぎ目：始発駅（継ぎ目）に到着した列車は、次の同方向の始発駅発車まで
+        // その駅に停車中として表示する（最大10分）。入庫などで環状を抜ける列車は
+        // 始発駅以外で終わるため、この表示にはならない。
+        if (last.station === geo.stations[0]) {
+            let nextDep = Infinity;
+            for (const o of currentTrains) {
+                if (o === train || o.direction !== train.direction) continue;
+                const oe = trainEvents(o);
+                if (!oe.length || oe[0].station !== last.station) continue;
+                for (const cand of [oe[0].t, oe[0].t + 1440]) {
+                    if (cand > last.t && cand < nextDep) nextDep = cand;
+                }
+            }
+            const until = Math.min(nextDep, last.t + 10);
+            for (const cand of [now, now + 1440]) {
+                if (cand > last.t && cand <= until) {
+                    return { km: kms[kms.length - 1], at: last.station };
+                }
+            }
+        }
+        return null;
+    }
+    now = nowIn;
+    for (let i = 0; i < evs.length - 1; i++) {
+        if (evs[i].station === evs[i + 1].station && now >= evs[i].t && now <= evs[i + 1].t) {
+            return { km: kms[i], at: evs[i].station };
+        }
+    }
+    for (let i = 0; i < evs.length - 1; i++) {
+        const a = evs[i], b = evs[i + 1];
+        if (now >= a.t && now <= b.t) {
+            const frac = b.t === a.t ? 0 : (now - a.t) / (b.t - a.t);
+            return { km: kms[i] + frac * (kms[i + 1] - kms[i]), at: null };
+        }
+    }
+    return { km: kms[kms.length - 1], at: last.station };
+}
+function renderRing(lineName, groups, gIndex) {
+    const diagram = document.getElementById("diagram");
+    const status = document.getElementById("statusText");
+    const geo = ringGeometry(lineName);
+    if (!geo) { status.textContent = "路線データを読み込めませんでした"; return; }
+    diagram.classList.add("ring-mode");
+    document.getElementById("downLabel").textContent = "下り（外側・時計回り）";
+    document.getElementById("upLabel").textContent = "上り（内側・反時計回り）";
+    document.getElementById("lineNote").textContent = "環状線のため円形の路線図で表示しています。外側の線が下り（時計回り）、内側の線が上り（反時計回り）です。列車の丸をタップすると詳細が出ます。";
+    const { stations, axis, L } = geo;
+    const CX = 440, CY = 440, R = 292, LANE = 30;
+    const pt = (km, r) => {
+        const th = (((km % L) + L) % L) / L * Math.PI * 2;
+        return [CX + r * Math.sin(th), CY - r * Math.cos(th)];
+    };
+    let svg = '<svg viewBox="0 0 880 880" style="width:100%;height:auto;display:block" role="img" aria-label="' + lineName + 'の環状路線図">';
+    svg += '<circle cx="' + CX + '" cy="' + CY + '" r="' + (R + LANE) + '" fill="none" stroke="' + current.color + '" stroke-width="3" opacity="0.5"/>';
+    svg += '<circle cx="' + CX + '" cy="' + CY + '" r="' + (R - LANE) + '" fill="none" stroke="' + current.color + '" stroke-width="3" opacity="0.5"/>';
+    svg += '<circle cx="' + CX + '" cy="' + CY + '" r="' + R + '" fill="none" stroke="' + current.color + '" stroke-width="1.5" opacity="0.3" stroke-dasharray="3 5"/>';
+    let prevAng = null, prevTier = 0;
+    for (const st of stations) {
+        const ang = (((axis[st] % L) + L) % L) / L * 360;
+        let tier = 0;
+        if (prevAng !== null && ang - prevAng < 7.5) tier = 1 - prevTier;
+        prevAng = ang; prevTier = tier;
+        const [x, y] = pt(axis[st], R);
+        const [lx, ly] = pt(axis[st], R + LANE + 36 + tier * 26);
+        const sin = Math.sin((((axis[st] % L) + L) % L) / L * Math.PI * 2);
+        const anchor = sin > 0.35 ? "start" : sin < -0.35 ? "end" : "middle";
+        svg += '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="5" fill="#fff" stroke="' + current.color + '" stroke-width="2.5"/>';
+        svg += '<text x="' + lx.toFixed(1) + '" y="' + (ly + 5).toFixed(1) + '" text-anchor="' + anchor + '" font-size="15" fill="#223">' + st + "</text>";
+    }
+    const now = nowMinutes();
+    let count = 0, downCount = 0, upCount = 0;
+    const placed = [];
+    for (let ti = 0; ti < currentTrains.length; ti++) {
+        const train = currentTrains[ti];
+        if (HIDDEN_TYPES.has(train.type)) continue;
+        const pos = ringPositionKm(train, geo, now);
+        if (!pos) continue;
+        const down = train.direction !== "上り";
+        if (dirFilter === "down" && !down) continue;
+        if (dirFilter === "up" && down) continue;
+        count++;
+        if (down) downCount++; else upCount++;
+        const g = gIndex.has(train.type) ? gIndex.get(train.type) : 0;
+        placed.push({ ti, train, pos, down, g, ang: (((pos.km % L) + L) % L) / L * 360 });
+    }
+    // 同じレーンで丸が重ならないよう角度方向に少しずらす（ずらし上限つき）
+    for (const downFlag of [true, false]) {
+        const items = placed.filter(p => p.down === downFlag).sort((a, b) => a.ang - b.ang);
+        for (const p of items) p.dispAng = p.ang;
+        const MIN = 5.2;
+        for (let iter = 0; iter < 200; iter++) {
+            let moved = false;
+            for (let i = 1; i < items.length; i++) {
+                const gap = items[i].dispAng - items[i - 1].dispAng;
+                if (gap < MIN) {
+                    const push = (MIN - gap) / 2;
+                    items[i - 1].dispAng -= push;
+                    items[i].dispAng += push;
+                    moved = true;
+                }
+            }
+            if (!moved) break;
+        }
+        for (const p of items) {
+            if (p.dispAng - p.ang > 13) p.dispAng = p.ang + 13;
+            if (p.dispAng - p.ang < -13) p.dispAng = p.ang - 13;
+        }
+    }
+    for (const p of placed) {
+        const g = groups[p.g];
+        const [x, y] = pt(p.dispAng / 360 * L, R + (p.down ? LANE : -LANE));
+        const label = iconLabel(p.train, lineName);
+        svg += '<g class="ring-train" data-idx="' + p.ti + '" style="cursor:pointer">' +
+            '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="14" fill="' + (p.pos.at ? g.color : "#fff") + '" stroke="' + g.color + '" stroke-width="2.5"/>' +
+            '<text x="' + x.toFixed(1) + '" y="' + (y + 4).toFixed(1) + '" text-anchor="middle" font-size="11" font-weight="700" fill="' + (p.pos.at ? "#fff" : g.color) + '">' + label + "</text></g>";
+    }
+    if (count === 0) {
+        svg += '<text x="' + CX + '" y="' + CY + '" text-anchor="middle" font-size="20" fill="#666">現在、運行中の列車はありません</text>';
+    }
+    svg += "</svg>";
+    diagram.style.width = "auto";
+    diagram.style.height = "auto";
+    diagram.innerHTML = svg;
+    status.textContent = "運行中 " + count + "本（下り " + downCount + "本・上り " + upCount + "本）";
+    if (selectedKey) refreshCard();
+}
 async function render() {
     const token = ++renderSeq;
     const diagram = document.getElementById("diagram");
@@ -883,6 +1119,8 @@ async function render() {
     const groups = groupsFor(lineName, currentTrains).filter(g => g.key !== "kaisou");
     const gIndex = new Map();
     groups.forEach((g, gi) => g.types.forEach(t => gIndex.set(t, gi)));
+    diagram.classList.remove("ring-mode");
+    if (RING_LINES.has(lineName)) { renderRing(lineName, groups, gIndex); return; }
     const groupStops = groups.map(g => {
         const set = new Set();
         for (const t of currentTrains) {
@@ -921,10 +1159,8 @@ async function render() {
     const laneCenter = (down, g, cx0) => (cx0 == null ? centerX : cx0) + (down ? 1 : -1) * (CENTER_HALF + LANE_W * g + LANE_W / 2);
     // 小出線の分岐（朝日線・小出線のみ：小出が2回現れ、その間が小出線の分岐区間）
     let branch = null;
-    if (current.file === "朝日線・小出線.json") {
-        const a = rows.indexOf("小出"), b = rows.lastIndexOf("小出");
-        if (a >= 0 && b > a + 1) branch = { from: a, to: b };
-    }
+    // 朝日線・小出線は全列車が小出→新長井→石津→小出のループを通る単一路線のため、
+    // Y字分岐にはせず駅順どおりの直線で描く（2026-11-19：特急が小出線に「侵入」して見える問題への対策）
     // Y字レイアウト：小出を1駅に統合し、分岐側（小出線）を左側に並行して描く。
     // 小出線は小出から上方向（東秋津寄り）に伸びる想定なので、分岐側の駅は小出の上に並べる
     // （小出に近い順：岩島→…→新長井）。本線は右側に寄せ、朝日方面へまっすぐ下りる。
@@ -943,31 +1179,27 @@ async function render() {
     }
     // 狭い画面では路線図全体が画面幅に収まるようレーン幅を縮小する（2026-11-19）
     const scrollW = diagram.parentElement ? diagram.parentElement.clientWidth : 0;
-    if (scrollW > 0) {
-        const naturalW = branch ? 4 * mainHalf + 40 : 2 * mainHalf;
-        if (naturalW > scrollW) {
-            const targetHalf = branch ? (scrollW - 40) / 4 : scrollW / 2;
-            const k = targetHalf / mainHalf;
-            LANE_W = Math.max(26, Math.floor(LANE_W * k));
-            CENTER_HALF = Math.max(34, Math.floor(CENTER_HALF * k));
-            mainHalf = CENTER_HALF + LANE_W * groups.length;
-            centerX = branch ? 3 * mainHalf + 40 : mainHalf;
-            if (branch) {
-                branchCX = mainHalf;
-                diagram.style.setProperty("--rail-x", centerX + "px");
-            }
-        }
+    const naturalW = dirFilter === "both" ? 2 * mainHalf : mainHalf + 64;
+    if (scrollW > 0 && naturalW > scrollW) {
+        const targetHalf = dirFilter === "both" ? scrollW / 2 : scrollW - 64;
+        const k = targetHalf / mainHalf;
+        LANE_W = Math.max(26, Math.floor(LANE_W * k));
+        CENTER_HALF = Math.max(34, Math.floor(CENTER_HALF * k));
+        mainHalf = CENTER_HALF + LANE_W * groups.length;
     }
-    const diagramW = branch ? centerX + mainHalf : 2 * mainHalf;
+    centerX = dirFilter === "down" ? 64 : mainHalf;
+    const diagramW = dirFilter === "down" ? centerX + mainHalf : dirFilter === "up" ? centerX + 64 : 2 * mainHalf;
+    diagram.style.setProperty("--rail-x", centerX + "px");
     diagram.style.width = diagramW + "px";
     diagram.style.height = diagramH + "px";
     document.getElementById("lineNote").textContent = branch
         ? "小出駅で小出線（新長井方面）が分岐するY字型の路線です。小出線の列車は左側の線に表示されます。"
         : "";
     let html = "";
+    const dirsShown = dirFilter === "down" ? [true] : dirFilter === "up" ? [false] : [true, false];
     // 種別レーンの帯と見出し
     groups.forEach((g, gi) => {
-        for (const down of [true, false]) {
+        for (const down of dirsShown) {
             const cx = laneCenter(down, gi);
             html += '<div class="lane-band" style="left:' + (cx - LANE_W / 2) + 'px;width:' + LANE_W + 'px;background:' + g.color + '14"></div>';
             html += '<div class="lane-label" style="left:' + cx + 'px;width:' + LANE_W + 'px;margin-left:' + (-LANE_W / 2) + 'px;color:' + g.color + '">' + g.label.replace(/・/g, "・<br>") + "</div>";
@@ -994,7 +1226,7 @@ async function render() {
             if (!groupStops[gi].has(st)) return;
             if (branch && ri === branch.to) return;
             const cx0 = (branch && ri > branch.from && ri < branch.to) ? branchCX : centerX;
-            for (const down of [true, false]) {
+            for (const down of dirsShown) {
                 html += '<span class="stop-dot" style="left:' + laneCenter(down, gi, cx0) + 'px;top:' + tops[ri] + 'px;background:' + g.color + '"></span>';
             }
         });
@@ -1036,10 +1268,12 @@ async function render() {
     const placed = [];
     for (let ti = 0; ti < currentTrains.length; ti++) {
         const train = currentTrains[ti];
-        if (train.type === "回送" || train.type === "試運転") continue;
+        if (HIDDEN_TYPES.has(train.type)) continue;
         const pos = positionAt(train, rows, now);
         if (!pos) continue;
         const down = isDown(train, rows);
+        if (dirFilter === "down" && !down) continue;
+        if (dirFilter === "up" && down) continue;
         count++;
         if (down) downCount++; else upCount++;
         const g = gIndex.has(train.type) ? gIndex.get(train.type) : 0;
@@ -1110,8 +1344,13 @@ document.addEventListener("DOMContentLoaded", () => {
         render();
     });
     document.getElementById("refreshBtn").addEventListener("click", render);
+    document.querySelectorAll(".dir-btn").forEach(b => b.addEventListener("click", () => {
+        dirFilter = b.dataset.dir;
+        document.querySelectorAll(".dir-btn").forEach(x => x.classList.toggle("active", x === b));
+        render();
+    }));
     document.getElementById("diagram").addEventListener("click", e => {
-        const chip = e.target.closest(".train-icon");
+        const chip = e.target.closest(".train-icon, .ring-train");
         if (chip && currentTrains) openCard(currentTrains[+chip.dataset.idx]);
     });
     document.getElementById("tcClose").addEventListener("click", closeCard);
