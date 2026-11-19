@@ -4137,3 +4137,8 @@ img{
     }
     .search-field, .time-field{ min-width:0; }
 }
+
+/* iOS Safari は body だけの overflow-x:hidden を無視することがあるため html にも指定（2026-11-19） */
+@media (max-width: 768px){
+    html, body{ overflow-x:hidden; }
+}

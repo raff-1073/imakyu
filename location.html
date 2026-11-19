@@ -39,6 +39,13 @@
 .location-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:#fff;border:1px solid #dde3ea;border-radius:12px;padding:14px 16px;box-shadow:0 4px 18px rgba(0,40,90,.06);}
 .location-controls label{font-weight:700;color:#004A99;font-size:14px;}
 .location-controls select{font-size:16px;padding:8px 10px;border:2px solid #c9d4e2;border-radius:8px;margin-left:6px;background:#fff;}
+.location-controls select{max-width:100%;}
+@media (max-width:640px){
+    .location-controls{flex-direction:column;align-items:stretch;}
+    .location-controls label{display:flex;flex-direction:column;gap:6px;}
+    .location-controls select{width:100%;margin-left:0;}
+    #refreshBtn{margin-left:0;}
+}
 .location-clock{font-size:14px;color:#334;}
 .location-clock span{font-weight:700;font-size:17px;color:#10243e;}
 #refreshBtn{margin-left:auto;background:#004A99;color:#fff;border:none;border-radius:8px;padding:9px 18px;font-size:14px;cursor:pointer;}
@@ -908,8 +915,8 @@ async function render() {
         return tops[i] + (tops[i + 1] - tops[i]) * (r - i);
     };
     // レーン配置：中央に駅、その両側に下り・上りの種別レーンを並べる
-    const LANE_W = 54, CENTER_HALF = 75;
-    const mainHalf = CENTER_HALF + LANE_W * groups.length;
+    let LANE_W = 54, CENTER_HALF = 75;
+    let mainHalf = CENTER_HALF + LANE_W * groups.length;
     let centerX = mainHalf;
     const laneCenter = (down, g, cx0) => (cx0 == null ? centerX : cx0) + (down ? 1 : -1) * (CENTER_HALF + LANE_W * g + LANE_W / 2);
     // 小出線の分岐（朝日線・小出線のみ：小出が2回現れ、その間が小出線の分岐区間）
@@ -934,6 +941,23 @@ async function render() {
     } else {
         diagram.style.removeProperty("--rail-x");
     }
+    // 狭い画面では路線図全体が画面幅に収まるようレーン幅を縮小する（2026-11-19）
+    const scrollW = diagram.parentElement ? diagram.parentElement.clientWidth : 0;
+    if (scrollW > 0) {
+        const naturalW = branch ? 4 * mainHalf + 40 : 2 * mainHalf;
+        if (naturalW > scrollW) {
+            const targetHalf = branch ? (scrollW - 40) / 4 : scrollW / 2;
+            const k = targetHalf / mainHalf;
+            LANE_W = Math.max(26, Math.floor(LANE_W * k));
+            CENTER_HALF = Math.max(34, Math.floor(CENTER_HALF * k));
+            mainHalf = CENTER_HALF + LANE_W * groups.length;
+            centerX = branch ? 3 * mainHalf + 40 : mainHalf;
+            if (branch) {
+                branchCX = mainHalf;
+                diagram.style.setProperty("--rail-x", centerX + "px");
+            }
+        }
+    }
     const diagramW = branch ? centerX + mainHalf : 2 * mainHalf;
     diagram.style.width = diagramW + "px";
     diagram.style.height = diagramH + "px";
@@ -946,7 +970,7 @@ async function render() {
         for (const down of [true, false]) {
             const cx = laneCenter(down, gi);
             html += '<div class="lane-band" style="left:' + (cx - LANE_W / 2) + 'px;width:' + LANE_W + 'px;background:' + g.color + '14"></div>';
-            html += '<div class="lane-label" style="left:' + cx + 'px;color:' + g.color + '">' + g.label.replace(/・/g, "・<br>") + "</div>";
+            html += '<div class="lane-label" style="left:' + cx + 'px;width:' + LANE_W + 'px;margin-left:' + (-LANE_W / 2) + 'px;color:' + g.color + '">' + g.label.replace(/・/g, "・<br>") + "</div>";
         }
     });
     // 分岐側（小出線）のレーンは分岐区間にだけ帯と見出しを出す。
@@ -958,7 +982,7 @@ async function render() {
             for (const down of [true, false]) {
                 const cx = laneCenter(down, gi, branchCX);
                 html += '<div class="lane-band" style="left:' + (cx - LANE_W / 2) + 'px;width:' + LANE_W + 'px;top:' + bandTop + 'px;height:' + (junctionY - bandTop) + 'px;background:' + g.color + '14"></div>';
-                html += '<div class="lane-label" style="left:' + cx + 'px;top:' + (bandTop + 5) + 'px;color:' + g.color + '">' + g.label.replace(/・/g, "・<br>") + "</div>";
+                html += '<div class="lane-label" style="left:' + cx + 'px;top:' + (bandTop + 5) + 'px;width:' + LANE_W + 'px;margin-left:' + (-LANE_W / 2) + 'px;color:' + g.color + '">' + g.label.replace(/・/g, "・<br>") + "</div>";
             }
         });
     }
