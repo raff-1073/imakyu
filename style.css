@@ -2367,3 +2367,26 @@ img{
 @media (max-width: 768px){
     html, body{ overflow-x:hidden; }
 }
+
+/* セレストクラスページのスマホ最適化（2026-11-19）
+   ヒーロー・見出し・スペック表などがPCサイズのままだったため専用に調整 */
+@media (max-width: 768px){
+    .celeste-page{ padding:30px 0 50px; }
+    .celeste-hero{ height:300px; }
+    .celeste-hero-text p{ font-size:12px; letter-spacing:2px; margin-bottom:8px; }
+    .celeste-hero-text h2{ font-size:34px; }
+    .celeste-hero-text span{ font-size:15px; margin-top:10px; }
+    .celeste-intro, .celeste-features, .celeste-info, .celeste-spec, .celeste-service-time{ margin:30px auto; }
+    .celeste-intro{ padding:22px 18px; border-left-width:5px; }
+    .celeste-intro h2, .celeste-features h2, .celeste-info h2, .celeste-spec h2, .celeste-service-time h2{ font-size:23px; margin-bottom:12px; }
+    .celeste-intro p{ font-size:14.5px; line-height:1.8; }
+    .celeste-feature-grid{ grid-template-columns:1fr; gap:14px; }
+    .celeste-feature-card{ padding:20px 18px; }
+    .celeste-feature-card h3{ font-size:19px; }
+    .celeste-spec-grid{ grid-template-columns:1fr 1fr; gap:12px; }
+    .celeste-spec-grid div{ padding:16px 14px; }
+    .celeste-spec-grid strong{ font-size:22px; margin:8px 0 5px; }
+    .service-time-list{ grid-template-columns:1fr; gap:12px; }
+    .celeste-accordion summary{ padding:15px 16px; font-size:16px; }
+    .accordion-content{ padding:0 16px 16px; }
+}
