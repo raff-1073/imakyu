@@ -1,0 +1,3349 @@
+{
+ "line": "多田本線",
+ "trains": [
+  {
+   "id": "1001D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "05:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "05:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "05:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "05:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "05:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1003D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "06:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "06:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "06:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "06:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "06:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1005D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "06:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "06:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "06:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "06:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "06:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1007D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "07:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "07:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "07:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "07:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "07:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1009D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "07:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "07:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "07:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "07:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1011D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "08:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "08:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "08:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "08:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "08:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1013D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "08:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "08:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "08:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1015D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "09:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "09:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "09:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "09:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "09:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1017D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "09:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "09:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "09:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "09:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1019D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "10:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "10:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "10:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "10:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "10:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1021D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "10:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "10:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "10:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "10:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "10:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1023D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "11:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "11:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "11:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "11:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "11:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1025D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "11:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "11:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "11:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "11:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1027D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "12:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "12:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "12:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "12:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "12:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1029D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "12:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "12:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "12:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "12:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "12:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1031D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "13:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "13:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "13:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "13:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "13:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1033D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "13:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "13:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "13:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "13:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1035D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "14:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "14:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "14:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "14:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "14:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1037D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "14:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "14:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "14:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "14:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "14:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1039D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "15:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "15:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "15:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "15:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "15:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1041D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "15:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "15:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "15:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "15:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "15:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1043D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "16:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "16:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "16:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "16:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "16:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1045D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "16:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "16:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "16:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "16:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "16:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1047D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "17:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "17:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "17:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "17:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "17:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1049D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "17:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "17:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "17:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "17:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1051D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "18:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "18:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "18:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "18:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "18:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1053D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "18:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "18:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "18:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "18:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "18:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1055D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "19:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "19:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "19:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "19:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "19:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1057D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "19:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "19:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "19:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "19:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "19:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1059D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "20:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "20:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "20:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "20:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1061D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "20:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "20:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "20:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "20:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "101",
+   "type": "寝特",
+   "name": "天空",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "20:41"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "20:59"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1063D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "21:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "21:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "21:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "21:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "21:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1065D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "21:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "21:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "21:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "21:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "21:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1067D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "22:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "22:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "22:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "22:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "22:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1069D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "22:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "22:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "22:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "22:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "22:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1071D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "23:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "23:08"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "23:12"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "23:16"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "23:19"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1073D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "羽川",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "23:30"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "23:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "23:38"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "23:42"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "23:46"
+    },
+    {
+     "station": "新楽温泉",
+     "kind": "着",
+     "time": "23:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1002D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "05:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "05:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "05:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "05:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "05:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1004D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "06:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "06:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "06:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "06:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "06:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1006D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "06:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "06:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "06:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "06:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "06:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1008D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "07:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "07:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "07:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "07:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "07:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1010D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "07:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "07:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "07:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "07:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1012D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "08:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "08:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "08:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "08:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "08:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1014D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "08:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "08:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "08:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1016D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "09:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "09:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "09:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "09:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "09:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1018D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "09:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "09:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "09:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "09:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1020D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "10:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "10:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "10:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "10:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "10:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "102",
+   "type": "寝特",
+   "name": "天空",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "10:11"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "10:29"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1022D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "10:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "10:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "10:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "10:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "10:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1024D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "11:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "11:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "11:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "11:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "11:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1026D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "11:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "11:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "11:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "11:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1028D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "12:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "12:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "12:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "12:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "12:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1030D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "12:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "12:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "12:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "12:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "12:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1032D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "13:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "13:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "13:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "13:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "13:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1034D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "13:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "13:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "13:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "13:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1036D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "14:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "14:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "14:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "14:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "14:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1038D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "14:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "14:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "14:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "14:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "14:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1040D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "15:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "15:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "15:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "15:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "15:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1042D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "15:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "15:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "15:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "15:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "15:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1044D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "16:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "16:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "16:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "16:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "16:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1046D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "16:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "16:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "16:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "16:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "16:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1048D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "17:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "17:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "17:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "17:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "17:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1050D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "17:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "17:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "17:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "17:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1052D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "18:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "18:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "18:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "18:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "18:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1054D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "18:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "18:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "18:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "18:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "18:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1056D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "19:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "19:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "19:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "19:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "19:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1058D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "19:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "19:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "19:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "19:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "19:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1060D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "20:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "20:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "20:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "20:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1062D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "20:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "20:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "20:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "20:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1064D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "21:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "21:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "21:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "21:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "21:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1066D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "21:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "21:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "21:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "21:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "21:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1068D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "22:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "22:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "22:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "22:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "22:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1070D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "22:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "22:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "22:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "22:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "22:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1072D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "23:04"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "23:08"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "23:12"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "23:16"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "23:19"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  },
+  {
+   "id": "1074D",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "新楽温泉",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "貴瀬野",
+     "kind": "発",
+     "time": "23:30"
+    },
+    {
+     "station": "新楽平",
+     "kind": "発",
+     "time": "23:34"
+    },
+    {
+     "station": "新川",
+     "kind": "発",
+     "time": "23:38"
+    },
+    {
+     "station": "鏡上峡温泉",
+     "kind": "発",
+     "time": "23:42"
+    },
+    {
+     "station": "北倉泉",
+     "kind": "発",
+     "time": "23:46"
+    },
+    {
+     "station": "羽川",
+     "kind": "着",
+     "time": "23:49"
+    }
+   ],
+   "direction": "上り",
+   "line": "多田本線"
+  }
+ ]
+}

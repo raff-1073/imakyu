@@ -1,0 +1,11229 @@
+{
+ "line": "大川線",
+ "trains": [
+  {
+   "id": "1001M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "05:35"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "05:45"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "05:55"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "06:05"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "06:25"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1003M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "05:03"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "05:08"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "05:13"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "05:18"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "05:23"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "05:28"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "05:33"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "05:38"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "05:43"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "05:48"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "05:53"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "05:58"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "06:03"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "06:08"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "06:13"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "06:18"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "06:23"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "06:28"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "06:33"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "06:38"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "06:48"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "06:53"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "06:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1005M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "05:35"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "05:45"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "05:55"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "06:05"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1007M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "06:25"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "06:35"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "06:55"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "07:05"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "07:15"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "07:20"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "07:24"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "07:29"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "07:34"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "07:39"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "07:44"
+    },
+    {
+     "station": "門星",
+     "kind": "着",
+     "time": "07:49"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "07:54"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "07:59"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "08:04"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "08:09"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "08:14"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "08:19"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "08:24"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1009M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "05:00"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "05:05"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "05:10"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "05:15"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "05:20"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "05:25"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "05:35"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "05:45"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "05:55"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "06:05"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "06:25"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "06:35"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "06:55"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "07:05"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1011M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "08:27"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "08:32"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "08:37"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "08:47"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "着",
+     "time": "08:52"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "08:58"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "09:03"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "09:08"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "09:13"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "09:18"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "09:23"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "09:28"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1013M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "06:41"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "06:46"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "06:51"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "07:01"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "07:06"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "07:11"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "07:16"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "07:21"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "07:31"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "07:36"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "07:41"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "07:46"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "07:51"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "08:01"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "08:06"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "08:11"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "08:16"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "08:21"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "08:31"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "08:36"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "08:41"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "08:51"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "着",
+     "time": "09:01"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "09:06"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "09:11"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "09:16"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "09:21"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "09:31"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "09:36"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "09:41"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "09:51"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "10:01"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "10:06"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "10:11"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "10:16"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "10:21"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "10:31"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "10:36"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "10:41"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "10:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1015M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "09:24"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "09:29"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "09:34"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "09:39"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "09:44"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "09:49"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "09:54"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "09:59"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "10:04"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "10:09"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1017M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "09:04"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "09:09"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "09:14"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "09:19"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "09:24"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "09:29"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "09:34"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "09:39"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "09:44"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "09:49"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "09:54"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "09:59"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "10:04"
+    },
+    {
+     "station": "十六夜",
+     "kind": "着",
+     "time": "10:09"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "10:31"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "10:36"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "10:41"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "着",
+     "time": "10:46"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "11:06"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "11:11"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "11:16"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "11:21"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "11:31"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "11:36"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "11:41"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "11:51"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1019M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "12:02"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "12:07"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "12:12"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "12:17"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "12:22"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "12:27"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "12:32"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "12:37"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "12:42"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "12:47"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "12:52"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "12:57"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "108M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "11:28"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "11:58"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "12:19"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "12:37"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "12:58"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "13:07"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1021M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "14:25"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "14:35"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "14:55"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "15:05"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "15:15"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "114M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "14:28"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "14:58"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "15:19"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "15:37"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "15:58"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "16:07"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1023M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "11:45"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "11:50"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "11:55"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "12:05"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "12:10"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "12:15"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "12:25"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "12:35"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "12:40"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "12:45"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "12:50"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "12:55"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "13:05"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "13:10"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "13:15"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "13:25"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "13:35"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "13:40"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "13:45"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "13:50"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1025M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "14:47"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "14:52"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "14:57"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "15:02"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "15:07"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "15:12"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "15:17"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "15:22"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "15:27"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "15:32"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "着",
+     "time": "15:37"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "15:44"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "15:49"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "15:54"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "15:59"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "16:04"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "16:09"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "16:14"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "16:19"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "16:24"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "16:29"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "16:34"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "16:39"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "16:44"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "16:49"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "16:54"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "16:59"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "17:04"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "17:09"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "17:14"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "17:19"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "17:24"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "17:29"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "17:39"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1027M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "14:35"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "14:55"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "15:05"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "15:15"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "15:25"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "15:35"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "15:55"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1029M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "15:55"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "16:05"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "16:15"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "16:25"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "16:35"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "16:40"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "16:55"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "17:05"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "17:15"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "17:25"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "17:35"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "17:50"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "120M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "17:28"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "17:58"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "18:19"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "18:37"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "18:58"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "19:07"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1031M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "16:35"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "16:40"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "16:55"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "17:05"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "畑川",
+     "kind": "着",
+     "time": "17:15"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "17:50"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "17:55"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "18:05"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "大川",
+     "kind": "着",
+     "time": "18:15"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "18:25"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "18:35"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "18:55"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "19:05"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "19:25"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "19:40"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1033M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "18:35"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "18:55"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "19:05"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "19:25"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "19:55"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "20:05"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "20:15"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "20:20"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "20:25"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "20:35"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "20:50"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "20:55"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "21:05"
+    },
+    {
+     "station": "上田",
+     "kind": "着",
+     "time": "21:10"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1035M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "18:05"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "18:15"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "18:25"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "18:35"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "18:55"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "19:05"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "19:25"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "19:55"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "20:05"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1037M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "21:05"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "21:10"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "21:15"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "21:25"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "21:35"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "21:40"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "21:45"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "21:50"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "21:55"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "22:05"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "22:15"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "22:20"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "22:25"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "22:35"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "22:40"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "22:50"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "22:55"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "23:05"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "23:10"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1000M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "04:30"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "04:35"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "04:40"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "04:45"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "04:50"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "04:55"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "05:00"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "05:05"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "05:10"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "05:15"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1002M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "06:35"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "06:55"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "07:05"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "07:15"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "07:25"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "十六夜",
+     "kind": "着",
+     "time": "07:35"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "07:42"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "07:47"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "07:52"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "07:57"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "08:02"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "08:07"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "08:12"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "08:17"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "08:22"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "08:27"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "08:32"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "08:37"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "08:47"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1004M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "06:28"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "06:33"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "06:38"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "06:48"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "06:53"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "06:58"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "07:03"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "07:08"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "07:13"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "07:18"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "07:23"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "07:28"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "07:33"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "07:43"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "07:48"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "07:53"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "07:58"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "08:08"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "08:13"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "08:18"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "08:23"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1006M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "07:23"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "07:28"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "07:33"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "07:43"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "07:48"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "07:53"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "07:58"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "08:08"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "08:13"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "08:18"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "08:23"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "08:28"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "08:33"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "08:38"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "08:43"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "08:48"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "08:58"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "09:03"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "09:08"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "09:13"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "09:18"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "09:23"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "09:28"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "09:33"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "09:38"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "着",
+     "time": "09:43"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "09:45"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "09:50"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "09:55"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "10:05"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "10:10"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "10:15"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "10:25"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "10:35"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "10:50"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "10:55"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "11:05"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "11:25"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "11:30"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1008M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "08:50"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "08:55"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "09:05"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "09:10"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "09:15"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "09:20"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "09:25"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "09:35"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "09:40"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "09:45"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "09:50"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "09:55"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "10:05"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "10:10"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "10:15"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "10:25"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "10:35"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "畑川",
+     "kind": "着",
+     "time": "10:45"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "11:52"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "11:57"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "12:02"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "12:07"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "12:12"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "12:17"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "12:22"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "12:27"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "12:32"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "12:37"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "12:42"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "12:47"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "12:52"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "12:57"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "13:02"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "13:07"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "13:12"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "13:17"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "13:22"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "13:27"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "13:32"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "13:37"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "13:47"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "13:52"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "13:57"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "14:02"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1010M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "07:50"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "07:55"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "08:05"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "08:10"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "着",
+     "time": "08:15"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "08:22"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "08:27"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "08:32"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "08:37"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1012M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "10:25"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "10:35"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "10:50"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "10:55"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "11:05"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "11:25"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "11:35"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "11:45"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "11:50"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "11:55"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "12:05"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "12:10"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "12:15"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "12:25"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "12:30"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1018M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "10:54"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "10:59"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "11:04"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "11:09"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "11:14"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "11:19"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "11:24"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "11:29"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "11:34"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "11:39"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "11:44"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "11:49"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "101M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "11:19"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "11:57"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "11:58"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "12:19"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "12:48"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1014M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "12:50"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "12:55"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "13:05"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "13:10"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "13:15"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "13:25"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "13:35"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "13:40"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "13:45"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "13:50"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "13:55"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "14:05"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "14:15"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "14:25"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "着",
+     "time": "14:35"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "14:55"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "15:05"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "15:15"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "15:20"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1016M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "13:55"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "14:05"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "14:15"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "14:25"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "14:35"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1020M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "13:07"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "13:12"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "13:17"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "13:22"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "13:27"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "13:32"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "13:37"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "13:47"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "13:52"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "13:57"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "14:02"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "14:07"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "14:12"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "14:17"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "14:22"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "14:27"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "14:32"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "14:37"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "着",
+     "time": "14:42"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "14:55"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "畑川",
+     "kind": "着",
+     "time": "15:05"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "15:33"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "15:38"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "15:43"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "15:48"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "15:53"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "15:58"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "16:03"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "16:08"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "16:13"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "16:18"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1022M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "16:25"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "16:35"
+    },
+    {
+     "station": "十六夜",
+     "kind": "着",
+     "time": "16:40"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "16:55"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "17:05"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "17:15"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "17:25"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "17:35"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "17:50"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "107M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "14:19"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "14:57"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "14:58"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "15:19"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "15:48"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1024M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "15:55"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "16:05"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "16:15"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "16:25"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "16:35"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "16:39"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "16:44"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "16:49"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "16:54"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "16:59"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "17:04"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "17:09"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "17:14"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "17:19"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "17:24"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "17:29"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "17:39"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "17:44"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "17:49"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "17:54"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "17:59"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "18:04"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "18:09"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "18:14"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "18:19"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "18:24"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "113M",
+   "type": "特急",
+   "name": "よこやま",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "17:19"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北新城",
+     "kind": "着",
+     "time": "17:57"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "17:58"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "18:19"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "18:48"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1026M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "18:55"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "19:05"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "19:25"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "19:55"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "20:05"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "20:15"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "20:20"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "20:25"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "20:35"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "20:50"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1028M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "17:58"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "18:03"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "18:08"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "18:13"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "18:18"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "18:23"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "18:28"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "18:33"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "18:38"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "18:43"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "18:48"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "18:53"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "18:58"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "19:03"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "19:08"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "19:13"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "19:18"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "19:23"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "19:28"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "19:33"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "19:38"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "19:43"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "19:48"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "19:53"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1030M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "20:01"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "20:06"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "20:11"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "20:21"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "20:31"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "20:36"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "20:41"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "20:51"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1032M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "20:50"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "20:55"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "21:05"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "21:10"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "21:15"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "21:25"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "21:35"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "21:40"
+    },
+    {
+     "station": "十六夜",
+     "kind": "着",
+     "time": "21:45"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "22:05"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "22:15"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "22:20"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "22:25"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "22:35"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "22:40"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "22:50"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "22:55"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "23:05"
+    },
+    {
+     "station": "大崎",
+     "kind": "着",
+     "time": "23:10"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "1034M",
+   "type": "普通",
+   "name": "",
+   "stops": [
+    {
+     "station": "上田",
+     "kind": "発",
+     "time": "21:28"
+    },
+    {
+     "station": "北上田",
+     "kind": "発",
+     "time": "21:33"
+    },
+    {
+     "station": "新町",
+     "kind": "発",
+     "time": "21:38"
+    },
+    {
+     "station": "南赤堀",
+     "kind": "発",
+     "time": "21:43"
+    },
+    {
+     "station": "今急新田",
+     "kind": "発",
+     "time": "21:48"
+    },
+    {
+     "station": "赤川",
+     "kind": "発",
+     "time": "21:53"
+    },
+    {
+     "station": "門星",
+     "kind": "発",
+     "time": "21:58"
+    },
+    {
+     "station": "南橋",
+     "kind": "発",
+     "time": "22:03"
+    },
+    {
+     "station": "土気台",
+     "kind": "発",
+     "time": "22:08"
+    },
+    {
+     "station": "飯山有原",
+     "kind": "発",
+     "time": "22:13"
+    },
+    {
+     "station": "飯山新城",
+     "kind": "発",
+     "time": "22:18"
+    },
+    {
+     "station": "北新城",
+     "kind": "発",
+     "time": "22:23"
+    },
+    {
+     "station": "飯山赤羽根",
+     "kind": "発",
+     "time": "22:28"
+    },
+    {
+     "station": "赤羽根",
+     "kind": "発",
+     "time": "22:33"
+    },
+    {
+     "station": "北赤羽",
+     "kind": "発",
+     "time": "22:38"
+    },
+    {
+     "station": "龍ケ崎",
+     "kind": "発",
+     "time": "22:43"
+    },
+    {
+     "station": "大川",
+     "kind": "発",
+     "time": "22:48"
+    },
+    {
+     "station": "花園",
+     "kind": "発",
+     "time": "22:53"
+    },
+    {
+     "station": "瀬潮谷",
+     "kind": "発",
+     "time": "22:58"
+    },
+    {
+     "station": "井川鶴巻",
+     "kind": "発",
+     "time": "23:03"
+    },
+    {
+     "station": "新鶴巻",
+     "kind": "発",
+     "time": "23:08"
+    },
+    {
+     "station": "井川倉山",
+     "kind": "発",
+     "time": "23:13"
+    },
+    {
+     "station": "井川瀬川",
+     "kind": "発",
+     "time": "23:18"
+    },
+    {
+     "station": "畑川",
+     "kind": "発",
+     "time": "23:23"
+    },
+    {
+     "station": "井川富崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "雫石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "木籠",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川公園前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "井川仙石",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "郡原",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "明日香高校前",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北飛鳥",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南須賀",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "須賀橋",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "博雨",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "十六夜",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "古谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "南霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "霧谷",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "中山滝",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西岡境",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "西吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "今急吉田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "谷津ヶ丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山岳寺",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "杵築",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上岡",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "大崎",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り"
+  }
+ ]
+}

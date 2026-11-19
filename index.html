@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今坂急行電鉄（今急電鉄）の公式サイト。運行情報、路線・駅のご案内、時刻表、ニュースをお届けします。">
+    <title>今急電鉄 公式サイト</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="index.html">ホーム</a>
+<a href="route.html">路線・駅</a>
+<a href="timetable.html">時刻表</a>
+<a href="search/index.html">乗換案内</a>
+<a href="../I-net/index.html">I-net</a>
+<a href="celeste.html" class="nav-celeste">
+    <img src="images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+<div class="hero-image"></div>
+
+<div class="hero-text">
+
+<h2 id="hero-title">
+    あなたの街へ、<br>
+    未来へ。
+</h2>
+
+<p id="hero-sub">
+IMAKYU RAILWAY
+</p>
+
+<div class="hero-line"></div>
+
+<p id="hero-year">
+Since 1885
+</p>
+
+</div>
+
+</section>
+
+<section class="operation-info">
+    <div class="operation-title">
+        <span class="status-dot"></span>
+        <h2>運行情報</h2>
+    </div>
+    <p>現在、全線平常通り運転しています。</p>
+    <p><a href="location.html">🚃 列車位置情報（走行中の列車の現在位置）はこちら</a></p>
+</section>
+
+<section class="news" id="news">
+
+    <h2>NEWS</h2>
+
+    <div class="news-item">
+        <span>2026.11.09</span>
+        <a href="news/20261109.html">大川線に新型車両を導入します</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.28</span>
+        <a href="#">IE2000系ありがとうツアー開催のお知らせ</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.25</span>
+        <a href="#">ダイヤ改正を実施しました</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.20</span>
+        <a href="#">夏の臨時列車について</a>
+    </div>
+
+</section>
+
+<section class="service">
+
+    <h2>サービス</h2>
+
+    <div class="service-grid">
+
+        <a href="route.html" class="card">
+            <h3>🚉 路線・駅</h3>
+            <p>路線図・駅情報を見る</p>
+        </a>
+
+        <a href="search/index.html" class="card">
+            <h3>🕒 時刻表</h3>
+            <p>時刻を調べる</p>
+        </a>
+
+        <a href="#" class="card">
+            <h3>🚆 車両紹介</h3>
+            <p>今急の車両を見る</p>
+        </a>
+
+        <a href="news.html" class="card">
+            <h3>📰 ニュース</h3>
+            <p>最新情報を見る</p>
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 100) {
+        header.classList.add("shrink");
+    } else {
+        header.classList.remove("shrink");
+    }
+});
+</script>
+
+<script>
+
+const slides=[
+
+{
+image:"images/hero1.png",
+title:"あなたの街へ、<br>未来へ。",
+sub:"IMAKYU RAILWAY",
+year:"Since 1885"
+},
+
+{
+image:"images/hero2.png",
+title:"夜を越えて、<br>想いをつなぐ。",
+sub:"NIGHT EXPRESS OTOSHIMA",
+year:"Luxury Sleeper Train"
+},
+
+];
+
+slides.forEach(function(slide){
+    const preload = new Image();
+    preload.src = slide.image;
+});
+
+let current=0;
+
+setInterval(function(){
+
+    const heroText = document.querySelector(".hero-text");
+
+    heroText.classList.add("fade");
+
+    setTimeout(function(){
+
+        current++;
+
+        if(current >= slides.length){
+            current = 0;
+        }
+
+        document.querySelector(".hero-image").style.backgroundImage =
+            `url(${slides[current].image})`;
+
+        document.getElementById("hero-title").innerHTML =
+            slides[current].title;
+
+        document.getElementById("hero-sub").textContent =
+            slides[current].sub;
+
+        document.getElementById("hero-year").textContent =
+            slides[current].year;
+
+        heroText.classList.remove("fade");
+
+    },800);
+
+},5000);
+
+</script>
+</body>
+</html>

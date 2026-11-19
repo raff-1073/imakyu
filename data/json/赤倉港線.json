@@ -1,0 +1,9833 @@
+{
+ "line": "赤倉港線",
+ "trains": [
+  {
+   "id": "507U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "05:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "501U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "05:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "503U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "05:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "505U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "05:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "507A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "05:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "08:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "501A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "603U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "605U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "9072M",
+   "type": "寝特",
+   "name": "ナイトエクスプレス秋川",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:17"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:25"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "607U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "601U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "603A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "06:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "605A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "707U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "701U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "703U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "705U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "707A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "07:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "701A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "07:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "803U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "805U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "807U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "801U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "803A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "3",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "11:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "805A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "08:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "907U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "901U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "903U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "905U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "907A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "09:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "901A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "09:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1003U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1005U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1007U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1001U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1003A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "10:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1005A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "10:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1107U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1101U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1103U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1105U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1107A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "5",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "14:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1101A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "11:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1203U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1205U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1207U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1201U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1203A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "12:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1205A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "12:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1307U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1301U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1303U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1305U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1307A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "13:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1301A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "13:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1403U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1405U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1407U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1401U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1403A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "7",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "17:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1405A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1507U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1501U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1503U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1505U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1507A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "15:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1501A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1603U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1605U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1607U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1601U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1603A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "16:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1605A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1707U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1701U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1703U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1705U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1707A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "9",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "20:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1701A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "17:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1803U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1805U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1807U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1801U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1803A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "18:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1805A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1907U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1901U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1903U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1905U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1907A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "19:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1901A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2003U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2005U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2007U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2001U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2003A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "11",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "着",
+     "time": "23:35"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2005A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "20:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2107U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2101U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2103U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2105U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2107A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "21:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2101A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "21:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2203U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2205U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2207U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2201U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2203A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "22:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2205A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "22:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2307U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2301U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2303U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2305U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2307A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2301A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "23:50"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:56"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:59"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:01"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2403U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "00:00"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:06"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:09"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:11"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2405U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "00:10"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:16"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:19"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:21"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2407U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "00:20"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:26"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:29"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:31"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2401U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "00:30"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:36"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:39"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:41"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2403A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "00:40"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:46"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:49"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "00:51"
+    },
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "502U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "05:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "504U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "05:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "506U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "05:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "500U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "05:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "502A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "05:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "504A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "05:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "05:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "606U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "600U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "602U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "604U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "606A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "06:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "600A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "06:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "06:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "702U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "704U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "706U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "700U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "702A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "07:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "704A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "07:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "07:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "07:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "806U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "800U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "802U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "804U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "08:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "806A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "08:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "800A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "08:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "08:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "902U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "904U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "906U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "900U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "902A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "09:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "904A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "09:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "09:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "09:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1006U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1000U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1002U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1004U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1006A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "10:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1000A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "10:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "10:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "10:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1102U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1104U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1106U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1100U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "4",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "11:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1102A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "11:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1104A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "11:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "11:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "11:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1206U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1200U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1202U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1204U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1206A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "12:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1200A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "12:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "12:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "12:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1302U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1304U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1306U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1300U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1302A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "13:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1304A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "13:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "13:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "13:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1406U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1400U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1402U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1404U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "6",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "14:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1406A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "14:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1400A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "14:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "14:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1502U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1504U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1506U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1500U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1502A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "15:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1504A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "15:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "15:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1606U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1600U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1602U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1604U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1606A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "16:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1600A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "16:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "16:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1702U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1704U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1706U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1700U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "8",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "17:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1702A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "17:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1704A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "17:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "17:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "17:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1806U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1800U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1802U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1804U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1806A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "18:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1800A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "18:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "18:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1902U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1904U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1906U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1900U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1902A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "19:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "1904A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "19:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "19:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2006U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2000U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2002U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2004U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "10",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "20:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2006A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "20:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2000A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "20:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "20:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "20:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2102U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2104U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2106U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2100U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2102A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "21:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2104A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "21:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "21:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "21:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2206U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2200U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2202U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2204U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2206A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "9071M",
+   "type": "寝特",
+   "name": "ナイトエクスプレス秋川",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "22:53"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2200A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "22:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "22:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "22:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2302U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2304U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2306U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2300U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "12",
+   "type": "フェリー",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "着",
+     "time": "23:35"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2302A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "23:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2304A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "23:50"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "23:53"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "23:56"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "23:59"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:01"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2406U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "00:00"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:03"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:06"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:09"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:11"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2400U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "00:10"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:13"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:16"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:19"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:21"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2402U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "00:20"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:23"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:26"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:29"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:31"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2404U",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "00:30"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:33"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:36"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:39"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:41"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  },
+  {
+   "id": "2406A",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横浜駅東口",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤倉港",
+     "kind": "発",
+     "time": "00:40"
+    },
+    {
+     "station": "きさらぎ",
+     "kind": "発",
+     "time": "00:43"
+    },
+    {
+     "station": "岩井町",
+     "kind": "発",
+     "time": "00:46"
+    },
+    {
+     "station": "北赤倉",
+     "kind": "発",
+     "time": "00:49"
+    },
+    {
+     "station": "新赤倉",
+     "kind": "着",
+     "time": "00:51"
+    }
+   ],
+   "direction": "上り",
+   "line": "赤倉港線"
+  }
+ ]
+}

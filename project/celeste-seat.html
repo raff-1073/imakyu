@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>座席選択｜セレストクラス予約｜今坂急行電鉄</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="../images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="../index.html">ホーム</a>
+<a href="../route.html">路線・駅</a>
+<a href="../timetable.html">時刻表</a>
+<a href="../search/index.html">乗換案内</a>
+<a href="../../I-net/index.html">I-net</a>
+<a href="../celeste.html" class="nav-celeste">
+    <img src="../images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main class="reserve-page">
+
+<section class="reserve-hero">
+    <p>CELESTE CLASS SEAT SELECT</p>
+    <h2>座席選択</h2>
+    <span>お好みの個室をお選びください。</span>
+</section>
+
+<p id="booking-summary"></p>
+
+<div class="seat-layout">
+
+    <div class="seat-map-area">
+
+        <h2>7号車 セレストクラス</h2>
+
+        <p class="direction">進行方向 →</p>
+
+        <div class="room-grid">
+
+            <div class="room available" data-room="1A">1A</div>
+            <div class="room available" data-room="1B">1B</div>
+
+            <div class="room available" data-room="2A">2A</div>
+            <div class="room available" data-room="2B">2B</div>
+
+            <div class="room available" data-room="3A">3A</div>
+            <div class="room reserved" data-room="3B">3B</div>
+
+            <div class="room available" data-room="4A">4A</div>
+            <div class="room available" data-room="4B">4B</div>
+
+            <div class="room available" data-room="5A">5A</div>
+            <div class="room available" data-room="5B">5B</div>
+
+            <div class="room reserved" data-room="6A">6A</div>
+            <div class="room available" data-room="6B">6B</div>
+
+            <div class="room available" data-room="7A">7A</div>
+            <div class="room available" data-room="7B">7B</div>
+
+            <div class="room available" data-room="8A">8A</div>
+            <div class="room available" data-room="8B">8B</div>
+
+        </div>
+
+    </div>
+
+    <div class="seat-info-area">
+
+        <h2>個室情報</h2>
+
+        <img src="../images/celeste.png" id="room-image" alt="セレストクラス個室イメージ">
+
+        <p id="room-name">個室を選択してください</p>
+
+        <ul>
+
+            <li>完全個室</li>
+
+            <li>大型テーブル</li>
+
+            <li>コンセント</li>
+
+            <li>USB Type-C</li>
+
+            <li>無料Wi-Fi</li>
+
+            <li>荷物収納</li>
+
+        </ul>
+
+        <button id="nextButton" disabled>
+
+            この個室を選択する
+
+        </button>
+
+        <p id="reserve-done"></p>
+
+    </div>
+
+</div>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="../contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script src="stations.js"></script>
+<script src="trains.js"></script>
+<script src="reserve.js"></script>
+
+</body>
+</html>

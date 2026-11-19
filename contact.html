@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今坂急行電鉄（今急電鉄）へのお問い合わせはこちらから。時刻表・運賃、忘れ物、イベントなどについてのご質問・ご意見をお寄せください。">
+    <title>お問い合わせ｜今急電鉄</title>
+        <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form{
+            max-width:640px;
+            margin:0 auto;
+            background:#fff;
+            border:1px solid #e5e5e5;
+            border-radius:12px;
+            padding:28px;
+        }
+        .contact-form label{
+            display:block;
+            font-weight:700;
+            margin:18px 0 6px;
+        }
+        .contact-form label:first-child{
+            margin-top:0;
+        }
+        .contact-form .required{
+            color:#c00;
+            font-size:12px;
+            margin-left:4px;
+        }
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea{
+            width:100%;
+            box-sizing:border-box;
+            padding:10px 12px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            font-size:16px;
+            font-family:inherit;
+        }
+        .contact-form textarea{
+            min-height:160px;
+            resize:vertical;
+        }
+        .contact-form button{
+            margin-top:24px;
+            width:100%;
+            padding:14px;
+            border:none;
+            border-radius:8px;
+            background:#0066cc;
+            color:#fff;
+            font-size:17px;
+            font-weight:700;
+            cursor:pointer;
+        }
+        .contact-form button:hover{
+            background:#0055aa;
+        }
+        .contact-note{
+            max-width:640px;
+            margin:0 auto 20px;
+            color:#666;
+            font-size:14px;
+        }
+        .contact-done{
+            display:none;
+            max-width:640px;
+            margin:0 auto;
+            background:#fff;
+            border:1px solid #e5e5e5;
+            border-radius:12px;
+            padding:28px;
+            text-align:center;
+        }
+        .contact-done h3{
+            margin:0 0 12px;
+        }
+        @media (max-width:768px){
+            .contact-form{
+                padding:20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="index.html">ホーム</a>
+<a href="route.html">路線・駅</a>
+<a href="timetable.html">時刻表</a>
+<a href="search/index.html">乗換案内</a>
+<a href="../I-net/index.html">I-net</a>
+<a href="celeste.html" class="nav-celeste">
+    <img src="images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="news">
+
+    <div class="section-title">
+        <h2>お問い合わせ</h2>
+        <p>時刻表・運賃、忘れ物、イベントなどについてのご質問・ご意見をお寄せください。</p>
+    </div>
+
+    <p class="contact-note">※今急電鉄は架空の鉄道会社です。このフォームはデモで、送信された内容はどこにも送られません。</p>
+
+    <form class="contact-form" id="contactForm">
+        <label for="contactName">お名前<span class="required">必須</span></label>
+        <input type="text" id="contactName" name="name" required>
+
+        <label for="contactEmail">メールアドレス<span class="required">必須</span></label>
+        <input type="email" id="contactEmail" name="email" required>
+
+        <label for="contactKind">お問い合わせの種類</label>
+        <select id="contactKind" name="kind">
+            <option>時刻表・運賃について</option>
+            <option>忘れ物について</option>
+            <option>イベントについて</option>
+            <option>セレストクラスについて</option>
+            <option>その他</option>
+        </select>
+
+        <label for="contactBody">お問い合わせ内容<span class="required">必須</span></label>
+        <textarea id="contactBody" name="body" required></textarea>
+
+        <button type="submit">送信する</button>
+    </form>
+
+    <div class="contact-done" id="contactDone">
+        <h3>お問い合わせを受け付けました</h3>
+        <p>ありがとうございます。内容を確認のうえ、ご連絡いたします。</p>
+        <p><a href="index.html">トップページへ戻る</a></p>
+    </div>
+
+</section>
+
+</main>
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("contactForm").style.display = "none";
+    document.getElementById("contactDone").style.display = "block";
+    window.scrollTo(0, 0);
+});
+</script>
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 100) {
+        header.classList.add("shrink");
+    } else {
+        header.classList.remove("shrink");
+    }
+});
+</script>
+</body>
+</html>

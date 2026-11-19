@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>セレストクラス予約｜今坂急行電鉄</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="../images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="../index.html">ホーム</a>
+<a href="../route.html">路線・駅</a>
+<a href="../timetable.html">時刻表</a>
+<a href="../search/index.html">乗換案内</a>
+<a href="../../I-net/index.html">I-net</a>
+<a href="../celeste.html" class="nav-celeste">
+    <img src="../images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main class="reserve-page">
+
+<section class="reserve-hero">
+    <p>CELESTE CLASS RESERVATION</p>
+    <h2>セレストクラス予約</h2>
+    <span>上質な旅のはじまりを、こちらから。</span>
+</section>
+
+<section class="reserve-form-section">
+
+    <form class="reserve-form" id="reserve-search-form">
+<div class="form-row">
+<div class="form-group">
+        <label for="from-station">発駅</label>
+        <select id="from-station" name="from-station">
+    <option value="">選択してください</option>
+</select>
+</div>
+
+<div class="form-group">
+        <label for="to-station">着駅</label>
+        <select id="to-station" name="to-station">
+    <option value="">選択してください</option>
+</select>
+</div>
+</div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="ride-date">乗車日</label>
+                <input type="date" id="ride-date" name="ride-date">
+            </div>
+
+            <div class="form-group">
+                <label for="ride-time">出発時刻</label>
+                <select id="ride-time" name="ride-time">
+                    <option value="">選択してください</option>
+                    <option value="06:00">06:00</option>
+                    <option value="06:30">06:30</option>
+                    <option value="07:00">07:00</option>
+                    <option value="07:30">07:30</option>
+                    <option value="08:00">08:00</option>
+                    <option value="08:30">08:30</option>
+                    <option value="09:00">09:00</option>
+                    <option value="09:30">09:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="12:00">12:00</option>
+                    <option value="12:30">12:30</option>
+                    <option value="13:00">13:00</option>
+                    <option value="13:30">13:30</option>
+                    <option value="14:00">14:00</option>
+                    <option value="14:30">14:30</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                    <option value="17:00">17:00</option>
+                    <option value="17:30">17:30</option>
+                    <option value="18:00">18:00</option>
+                    <option value="18:30">18:30</option>
+                    <option value="19:00">19:00</option>
+                    <option value="19:30">19:30</option>
+                    <option value="20:00">20:00</option>
+                    <option value="20:30">20:30</option>
+                    <option value="21:00">21:00</option>
+                    <option value="21:30">21:30</option>
+                    <option value="22:00">22:00</option>
+                    <option value="22:30">22:30</option>
+                    <option value="23:00">23:00</option>
+                    <option value="23:30">23:30</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="adult-count">大人</label>
+                <input type="number" id="adult-count" min="1" value="1">
+            </div>
+
+            <div class="form-group">
+                <label for="child-count">こども</label>
+                <input type="number" id="child-count" min="0" value="0">
+            </div>
+        </div>
+
+        <button type="submit" class="reserve-submit">空席を検索する</button>
+
+    </form>
+
+</section>
+
+<section class="reserve-result-section" id="reserve-results">
+    <h2>空席照会結果</h2>
+    <p class="result-note">条件を入力して検索してください。</p>
+
+    <div class="train-result-list" id="train-result-list"></div>
+</section>
+</main>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="../contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script src="stations.js"></script>
+<script src="trains.js"></script>
+<script src="reserve.js"></script>
+
+</body>
+</html>

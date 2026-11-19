@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今急公式サイト</title>
+        <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="../images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="../index.html">ホーム</a>
+<a href="../route.html">路線・駅</a>
+<a href="../timetable.html">時刻表</a>
+<a href="../search/index.html">乗換案内</a>
+<a href="../../I-net/index.html">I-net</a>
+<a href="../celeste.html" class="nav-celeste">
+    <img src="../images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<section class="station-page">
+
+    <div class="station-hero">
+        <div class="station-code-box number-is">
+          <span class="station-code-line">IS</span>
+          <span class="station-code-number">08</span>
+        </div>
+        <div>
+            <a href="../line/yokokurakuko.html" class="station-line-name">横倉空港線</a>
+            <h2>新桜台</h2>
+            <p class="station-reading">しんさくらだい / Shin-sakuradai</p>
+
+            <div class="station-stop-types">
+                <span class="train-type local">各停</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="station-action-buttons">
+        <a href="../timetable.html?station=%E6%96%B0%E6%A1%9C%E5%8F%B0">時刻表</a>
+        <a href="#">駅構内図</a>
+        <a href="#">バリアフリー情報</a>
+    </div>
+
+    <section class="station-info-block">
+        <h3>のりば案内</h3>
+
+        <table>
+            <tr>
+                <th>1番線</th>
+                <td>横倉空港線　横倉空港方面</td>
+            </tr>
+            <tr>
+                <th>2番線</th>
+                <td>横倉空港線　松川橋方面</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="station-info-block">
+        <h3>駅設備</h3>
+
+<table class="facility-check-table">
+    <tr>
+        <th>トイレ</th>
+        <th>バリアフリートイレ</th>
+    </tr>
+    <tr>
+        <td><span class="available">改札内</span></td>
+        <td><span class="unavailable">×</span></td>
+    </tr>
+
+    <tr>
+        <th>エレベーター</th>
+        <th>エスカレーター</th>
+    </tr>
+    <tr>
+        <td><span class="available">〇</span></td>
+        <td><span class="available">〇</span></td>
+    </tr>
+
+    <tr>
+        <th>コインロッカー</th>
+        <th>定期券うりば</th>
+    </tr>
+    <tr>
+        <td><span class="unavailable">×</span></td>
+        <td><span class="unavailable">×</span></td>
+    </tr>
+    <tr>
+        <th>コンビニ</th>
+        <th>窓口</th>
+    </tr>
+    <tr>
+        <td><span class="available">改札外</span></td>
+        <td><span class="available">〇</span></td>
+    </tr>
+</table>
+    </section>
+
+ <section class="station-info-block">
+        <h3>周辺情報</h3>
+<table class="nearby-table">
+    <thead>
+        <tr>
+            <th>施設・方面</th>
+            <th>出口</th>
+            <th>所要時間目安</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>新田川の桜並木</td>
+            <td>東口</td>
+            <td>徒歩2分　新田川沿い</td>
+        </tr>
+        </tbody>
+</table>
+</section>
+</section>
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="../timetable.html?station=%E6%96%B0%E6%A1%9C%E5%8F%B0">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="../contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 100) {
+        header.classList.add("shrink");
+    } else {
+        header.classList.remove("shrink");
+    }
+});
+</script>

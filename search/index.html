@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乗換案内｜今坂急行電鉄</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="../images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="../index.html">ホーム</a>
+<a href="../route.html">路線・駅</a>
+<a href="../timetable.html">時刻表</a>
+<a href="../search/index.html">乗換案内</a>
+<a href="../../I-net/index.html">I-net</a>
+<a href="../celeste.html" class="nav-celeste">
+    <img src="../images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main class="search-page">
+
+<div class="section-title">
+    <h2>乗換案内</h2>
+    <p>出発駅と到着駅を入力すると、経路・所要時間・運賃（IC運賃つき）を検索できます。全38路線・988駅対応。</p>
+</div>
+
+<div class="search-panel">
+
+    <div class="search-fields">
+
+        <div class="search-field">
+            <label for="from">出発駅</label>
+            <div class="station-input-wrap">
+                <input
+                    id="from"
+                    type="text"
+                    placeholder="駅名を入力（例：有坂）"
+                    autocomplete="off">
+                <div class="suggest" id="fromSuggest"></div>
+            </div>
+        </div>
+
+        <button type="button" id="swapBtn" class="swap-btn" title="出発駅と到着駅を入れ替え">⇅</button>
+
+        <div class="search-field">
+            <label for="to">到着駅</label>
+            <div class="station-input-wrap">
+                <input
+                    id="to"
+                    type="text"
+                    placeholder="駅名を入力（例：新熱川）"
+                    autocomplete="off">
+                <div class="suggest" id="toSuggest"></div>
+            </div>
+        </div>
+
+        <div class="search-field time-field">
+            <label for="travelDate">ご利用日</label>
+            <input
+                type="date"
+                id="travelDate">
+        </div>
+
+        <div class="search-field time-field">
+            <label for="departTime">出発時刻（任意）</label>
+            <input
+                type="time"
+                id="departTime">
+        </div>
+
+    </div>
+
+    <button id="searchbtn" class="search-btn">
+        検索する
+    </button>
+
+    <p class="ops-note">臨時列車・運休は運転日ごとに設定できます。<a href="../operations.html">運転日の管理ページ</a></p>
+
+</div>
+
+<div id="results"></div>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="../contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 100) {
+        header.classList.add("shrink");
+    } else {
+        header.classList.remove("shrink");
+    }
+});
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

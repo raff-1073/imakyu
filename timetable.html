@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今坂急行電鉄（今急電鉄）の各駅時刻表。駅・路線・方面を選ぶと、その駅の発車時刻表をご案内します。">
+    <title>駅時刻表｜今坂急行電鉄</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="index.html">ホーム</a>
+<a href="route.html">路線・駅</a>
+<a href="timetable.html">時刻表</a>
+<a href="search/index.html">乗換案内</a>
+<a href="../I-net/index.html">I-net</a>
+<a href="celeste.html" class="nav-celeste">
+    <img src="images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<style>
+.tt-page{max-width:920px;margin:0 auto;padding:28px 16px 56px;}
+.tt-title{color:#004A99;font-size:26px;margin:0 0 6px;}
+.tt-lead{color:#445;font-size:14px;margin:0 0 18px;}
+.tt-controls{position:relative;display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:#fff;border:1px solid #dde3ea;border-radius:12px;padding:14px 16px;box-shadow:0 4px 18px rgba(0,40,90,.06);}
+.tt-controls label{font-weight:700;color:#004A99;font-size:14px;}
+.tt-input-wrap{position:relative;flex:1;min-width:200px;}
+.tt-controls input{width:100%;font-size:16px;padding:9px 12px;border:2px solid #c9d4e2;border-radius:8px;box-sizing:border-box;}
+.tt-suggest{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1px solid #c9d4e2;border-radius:8px;box-shadow:0 10px 28px rgba(0,40,90,.16);z-index:50;overflow:hidden;}
+.tt-suggest:empty{display:none;}
+.tt-suggest-item{padding:9px 12px;cursor:pointer;font-size:14.5px;color:#10243e;}
+.tt-suggest-item:hover,.tt-suggest-item.active{background:#eef4fc;}
+.tt-suggest-item .tt-suggest-lines{color:#678;font-size:12px;margin-left:8px;}
+#ttBtn{background:#004A99;color:#fff;border:none;border-radius:8px;padding:10px 22px;font-size:14.5px;cursor:pointer;}
+#ttBtn:hover{background:#0a5cbd;}
+.tt-status{margin:14px 2px 8px;font-size:14px;color:#334;}
+.tt-status:empty{display:none;}
+.tt-step{margin-top:18px;}
+.tt-step:empty{display:none;}
+.tt-step-label{font-size:13px;font-weight:700;color:#004A99;margin-bottom:8px;}
+.tt-step-label .tt-step-station{color:#10243e;font-size:15px;}
+.tt-chips{display:flex;flex-wrap:wrap;gap:9px;}
+.tt-chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:2px solid #c9d4e2;border-radius:999px;padding:9px 18px;font-size:15px;font-weight:700;color:#10243e;cursor:pointer;}
+.tt-chip:hover{border-color:#004A99;}
+.tt-chip.selected{background:#004A99;border-color:#004A99;color:#fff;}
+.tt-chip:disabled{opacity:.38;cursor:default;}
+.tt-chip:disabled:hover{border-color:#c9d4e2;}
+.tt-chip .tt-chip-dot{width:12px;height:12px;border-radius:50%;flex:none;}
+.tt-chip .tt-chip-count{font-size:12px;font-weight:600;color:#678;}
+.tt-chip.selected .tt-chip-count{color:#cfe2f7;}
+/* 駅時刻表ボード（実物の駅掲示時刻表風） */
+.board{margin-top:20px;background:#fff;border:2.5px solid #10243e;border-radius:10px;overflow:hidden;box-shadow:0 8px 26px rgba(0,30,70,.10);}
+.board-head{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;justify-content:space-between;color:#fff;padding:10px 16px;}
+.board-head .bh-line{font-size:17px;font-weight:800;letter-spacing:.04em;}
+.board-head .bh-dir{font-size:15px;font-weight:700;}
+.board-head .bh-tt{font-size:12px;font-weight:700;border:1.5px solid rgba(255,255,255,.85);border-radius:5px;padding:1px 8px;letter-spacing:.14em;}
+.board-station{display:flex;align-items:baseline;gap:12px;padding:12px 16px 8px;border-bottom:1px solid #d8dee6;}
+.board-station .bs-name{font-size:31px;font-weight:900;color:#10243e;letter-spacing:.06em;}
+.board-station .bs-sub{font-size:13px;color:#567;}
+.b-hour{display:flex;border-bottom:1px solid #d8dee6;}
+.b-hour:last-of-type{border-bottom:none;}
+.b-hour-num{flex:none;width:54px;background:#eef2f7;border-right:1px solid #d8dee6;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:7px 0;}
+.b-hour-num b{font-size:21px;font-weight:900;color:#10243e;font-variant-numeric:tabular-nums;line-height:1;}
+.b-hour-num small{font-size:10.5px;color:#678;font-weight:700;}
+.b-mins{flex:1;display:flex;flex-wrap:wrap;align-content:flex-start;padding:7px 8px 9px;gap:3px 1px;}
+.b-min{position:relative;width:41px;text-align:center;font-size:17.5px;font-weight:700;color:#10243e;font-variant-numeric:tabular-nums;padding-top:9px;line-height:1.1;}
+.b-mark{position:absolute;top:0;left:50%;transform:translateX(-50%);font-size:9.5px;font-weight:700;color:#667;white-space:nowrap;}
+.board-legend{border-top:1px solid #d8dee6;background:#f7f9fc;padding:10px 16px;font-size:12.5px;color:#345;line-height:1.9;}
+.board-legend .bl-row{display:flex;flex-wrap:wrap;gap:2px 16px;}
+.board-legend b{color:#10243e;}
+.board-legend .bl-type{display:inline-flex;align-items:center;gap:5px;}
+.board-legend .bl-type i{width:10px;height:10px;border-radius:3px;display:inline-block;}
+.tt-empty{padding:30px 16px;text-align:center;color:#567;font-size:14.5px;background:#fff;border:1px solid #dde3ea;border-radius:12px;margin-top:18px;}
+.tt-note{font-size:12px;color:#789;margin-top:14px;}
+@media (max-width:640px){ .board-station .bs-name{font-size:25px;} .b-min{width:37px;font-size:16.5px;} }
+    .tt-date-row { align-items: center; gap: 10px; }
+    .tt-date-row input[type="date"] { padding: 7px 10px; font-size: 15px; border: 1px solid #b9c6d2; border-radius: 8px; }
+    .tt-date-row { flex-wrap: wrap; }
+    #ttDate { max-width: 100%; min-width: 0; box-sizing: border-box; }
+    .tt-date-note { font-size: 12.5px; color: #567; }
+
+@media (max-width:640px){ .tt-page{padding:18px 12px 40px;} .tt-title{font-size:22px;} }
+</style>
+
+<main>
+<section class="tt-page">
+    <h2 class="tt-title">各駅時刻表</h2>
+    <p class="tt-lead">駅を選ぶと、路線と方面を選べます。方面を選ぶと、その駅の発車時刻表が表示されます。通過列車は掲載していません。</p>
+
+    <div class="tt-controls">
+        <label for="stInput">駅名</label>
+        <div class="tt-input-wrap">
+            <input id="stInput" type="text" placeholder="駅名を入力（例：有坂）" autocomplete="off">
+            <div class="tt-suggest" id="stSuggest"></div>
+        </div>
+        <button id="ttBtn" type="button">表示</button>
+    </div>
+
+    <div class="tt-controls tt-date-row">
+        <label for="ttDate">ご利用日</label>
+        <input id="ttDate" type="date">
+        <span class="tt-date-note">臨時列車・運休は日付で切り替わります（<a href="operations.html">運転日の管理</a>）</span>
+    </div>
+
+    <p class="tt-status" id="ttStatus">読み込み中…</p>
+    <div class="tt-step" id="lineStep"></div>
+    <div class="tt-step" id="dirStep"></div>
+    <div id="ttResult"></div>
+
+    <p class="tt-note">※掲載時刻はダイヤに基づく発車時刻です。</p>
+</section>
+</main>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script>
+"use strict";
+// 路線ファイル（data/json）と路線カラー（乗換案内のバッジ色に合わせる）
+const LINE_FILES = [
+    { file: "中央高速線.json", color: "#e60012" },
+    { file: "今宮高速線.json", color: "#7f3f98" },
+    { file: "中央線.json", color: "#ffaa00" },
+    { file: "黒崎小岩ライン.json", color: "#004A99" },
+    { file: "今宮本線.json", color: "#004A99" },
+    { file: "松代線.json", color: "#00b050" },
+    { file: "吉田線.json", color: "#009944" },
+    { file: "吉野線.json", color: "#5aa500" },
+    { file: "大川線.json", color: "#00a0e9" },
+    { file: "大野線.json", color: "#d600c8" },
+    { file: "朝日線・小出線.json", color: "#ff6600" },
+    { file: "横倉空港線・河合本線・横倉スカイアクセス線.json", color: "#c9a800" },
+    { file: "水上線・西田線.json", color: "#00b7b7" },
+    { file: "青山線.json", color: "#3050c0" },
+    { file: "秋川本線.json", color: "#b03060" },
+    { file: "田原線.json", color: "#008080" },
+    { file: "北倉線.json", color: "#607d8b" },
+    { file: "多田本線.json", color: "#795548" },
+    { file: "山北線.json", color: "#558b2f" },
+    { file: "新沢線.json", color: "#00838f" },
+    { file: "河田線.json", color: "#6a1b9a" },
+    { file: "和阪線.json", color: "#a67c00" },
+    { file: "浜田本線.json", color: "#00695c" },
+    { file: "扶桑本線.json", color: "#ad1457" },
+    { file: "浜見線.json", color: "#4e342e" },
+    { file: "森浜線.json", color: "#33691e" },
+    { file: "赤倉本線.json", color: "#d81b60" },
+    { file: "赤倉港線.json", color: "#283593" },
+    { file: "新拠点線.json", color: "#4527a0" },
+    { file: "小岩線・小阪線.json", color: "#6d4c41" },
+    { file: "拠点本線.json", color: "#0277bd" },
+    { file: "都心環状線.json", color: "#9e9d24" },
+    { file: "吹雪環状線.json", color: "#3949ab" },
+    { file: "赤津線.json", color: "#006064" },
+    { file: "河津高速線・拠点高速線.json", color: "#bf360c" },
+    { file: "横倉空港線（横倉）.json", color: "#7a6a00" },
+    { file: "磯電線・技輪ドーム線・拠点小岩ライン.json", color: "#ad1457" },
+    { file: "臨海線.json", color: "#00838f" }
+];
+const TYPE_COLORS = {
+    "すいせい": "#d9001b", "てんりゅう": "#009b8f", "うみかぜ": "#1b9bd8", "しまなみ": "#f08300",
+    "うみ": "#1b9bd8", "きぼ": "#f08300",
+    "各停": "#5b7a99", "普通": "#5b7a99", "臨時": "#8d6e63",
+    "準急": "#7ab648", "急行": "#3f9e4d", "通急": "#e07b00", "快急": "#a05fc0",
+    "特急": "#d9001b", "臨特急": "#d9001b", "ライ": "#d9001b", "ライナー": "#d9001b",
+    "寝特": "#7f3f98", "臨寝特": "#7f3f98"
+};
+const LOCAL_TYPES = ["各停", "普通"];
+const cache = {};
+let stationEntries = [];
+const state = { station: null, line: null, dir: null };
+
+function isValidTime(str) { return /^\d{1,2}:\d{2}$/.test(str || ""); }
+function parseTime(str) {
+    const m = /^(\d{1,2}):(\d{2})$/.exec(str || "");
+    return m ? (+m[1]) * 60 + (+m[2]) : null;
+}
+function loadScript(src) {
+    return new Promise((resolve, reject) => {
+        const s = document.createElement("script");
+        s.src = src; s.onload = resolve; s.onerror = reject;
+        document.head.appendChild(s);
+    });
+}
+let trainsFallbackPromise = null;
+function loadTrainsFallback() {
+    if (window.IMAKYU_TRAINS) return Promise.resolve();
+    if (!trainsFallbackPromise) trainsFallbackPromise = loadScript("data/js/trains.js");
+    return trainsFallbackPromise;
+}
+async function loadLine(file) {
+    if (cache[file]) return cache[file];
+    try {
+        const r = await fetch("data/json/" + file);
+        if (!r.ok) throw new Error("fetch failed");
+        const j = await r.json();
+        cache[file] = j.trains;
+    } catch (e) {
+        await loadTrainsFallback();
+        const all = window.IMAKYU_TRAINS[file];
+        cache[file] = Array.isArray(all) ? all : all.trains;
+    }
+    return cache[file];
+}
+
+// 運転日（臨時列車・運休）の設定：同梱の operations.json と、管理ページで
+// この端末に追加した分（localStorage）を合わせて使う。
+let OPS = { rules: [], extraTrains: [] };
+let OPS_DATE = (() => { const d = new Date(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); })();
+let opsReady = null;
+function loadOperations() {
+    if (!opsReady) {
+        opsReady = (async () => {
+            try {
+                const r = await fetch("data/json/operations.json");
+                if (r.ok) { const d = await r.json(); OPS = { rules: d.rules || [], extraTrains: d.extraTrains || [] }; }
+            } catch (e) {
+                try {
+                    await loadScript("data/js/operations.js");
+                    const d = window.IMAKYU_OPERATIONS;
+                    if (d) OPS = { rules: d.rules || [], extraTrains: d.extraTrains || [] };
+                } catch (_) {}
+            }
+            try {
+                const local = JSON.parse(localStorage.getItem("imakyu_ops_local") || "null");
+                if (local) { OPS.rules = OPS.rules.concat(local.rules || []); OPS.extraTrains = OPS.extraTrains.concat(local.extraTrains || []); }
+            } catch (_) {}
+        })();
+    }
+    return opsReady;
+}
+function opsDateMatch(dates, dateStr) {
+    for (const d of dates || []) {
+        if (typeof d !== "string") continue;
+        if (d.includes("/")) { const p = d.split("/"); if (dateStr >= p[0] && dateStr <= p[1]) return true; }
+        else if (d === dateStr) return true;
+    }
+    return false;
+}
+function trainRunsOnLine(train, lineName, dateStr) {
+    let onlyDates = null;
+    for (const rule of OPS.rules || []) {
+        if (rule.line && rule.line !== lineName) continue;
+        if (rule.id && String(train.id) !== String(rule.id)) continue;
+        if (rule.name && train.name !== rule.name) continue;
+        if (rule.type && train.type !== rule.type) continue;
+        if (!rule.id && !rule.name && !rule.type) continue;
+        if (rule.mode === "except") { if (opsDateMatch(rule.dates, dateStr)) return false; }
+        else onlyDates = (onlyDates || []).concat(rule.dates || []);
+    }
+    if (onlyDates) return opsDateMatch(onlyDates, dateStr);
+    return true;
+}
+const visCache = {};
+async function visibleLineTrains(file) {
+    const key = file + "@" + OPS_DATE;
+    if (visCache[key]) return visCache[key];
+    await loadOperations();
+    const lineName = file.replace(/\.json$/, "");
+    const raw = await loadLine(file);
+    const list = raw.filter(t => trainRunsOnLine(t, lineName, OPS_DATE));
+    for (const extra of OPS.extraTrains || []) {
+        if (extra.line === lineName && opsDateMatch(extra.dates, OPS_DATE)) {
+            list.push({ id: extra.id || "ops-extra", type: extra.type || "", name: extra.name || "", direction: extra.direction || "", stops: extra.stops || [] });
+        }
+    }
+    visCache[key] = list;
+    return list;
+}
+
+async function loadStations() {
+    try {
+        const r = await fetch("data/json/stations.json");
+        if (!r.ok) throw new Error("fetch failed");
+        stationEntries = await r.json();
+    } catch (e) {
+        await loadScript("data/js/stations.js");
+        stationEntries = window.IMAKYU_STATIONS || [];
+    }
+}
+
+// 直通列車の対応付け（路線をまたいで運行される同一列車）
+// 判定ルール：(1) 名前付き列車は、同名で同じ駅に接続し、時刻差が最小（30分以内）で一意な相手と対応付ける
+//             (2) 今宮本線⇔黒崎小岩ラインの普通同士は、今宮で同時刻に接続するものだけを対応付ける
+//             （それ以外の普通・各停は別列車として扱う）
+let throughNext = {}, throughPrev = {}, throughLineTrains = {}, throughReady = null;
+function buildThroughMaps(byLine) {
+    const items = [];
+    for (const line of Object.keys(byLine)) {
+        byLine[line].forEach((t, idx) => {
+            const evs = [];
+            for (const s of t.stops) { const m = parseTime(s.time); if (m !== null) evs.push({ station: s.station, t: m }); }
+            if (line === "和阪線" && t.name === "天空") return;
+            if (evs.length >= 2) items.push({ line, idx, train: t, fs: evs[0].station, fm: evs[0].t, ls: evs[evs.length - 1].station, lm: evs[evs.length - 1].t });
+        });
+    }
+    const byFirst = new Map();
+    for (const it of items) {
+        const k = it.fs + "|" + it.fm;
+        if (!byFirst.has(k)) byFirst.set(k, []);
+        byFirst.get(k).push(it);
+    }
+    const key = it => it.line + "#" + it.idx;
+    const next = {}, prev = {};
+    const link = (a, b) => { next[key(a)] = key(b); prev[key(b)] = key(a); };
+    for (const a of items) {
+        const nm = a.train.name;
+        if (!nm || next[key(a)]) continue;
+        let best = [];
+        const maxGap = nm === "天空" ? 90 : 30;
+        for (let gap = 0; gap <= maxGap; gap++) {
+            const cs = (byFirst.get(a.ls + "|" + ((a.lm + gap) % 1440)) || []).filter(b => b.line !== a.line && b.train.name === nm && !prev[key(b)]);
+            if (cs.length) { best = cs; break; }
+        }
+        if (best.length === 1) link(a, best[0]);
+    }
+    for (const a of items) {
+        if (a.train.name || a.ls !== "今宮" || a.train.type !== "普通" || next[key(a)]) continue;
+        if (a.line !== "今宮本線" && a.line !== "黒崎小岩ライン") continue;
+        const other = a.line === "今宮本線" ? "黒崎小岩ライン" : "今宮本線";
+        const cs = (byFirst.get("今宮|" + a.lm) || []).filter(b => b.line === other && !b.train.name && b.train.type === "普通" && !prev[key(b)]);
+        if (cs.length === 1) link(a, cs[0]);
+    }
+    return { next, prev };
+}
+async function ensureThrough() {
+    if (!throughReady) {
+        throughReady = (async () => {
+            const byLine = {};
+            for (const lf of LINE_FILES) byLine[lf.file.replace(/\.json$/, "")] = await visibleLineTrains(lf.file);
+            throughLineTrains = byLine;
+            const maps = buildThroughMaps(byLine);
+            throughNext = maps.next; throughPrev = maps.prev;
+            window.IMAKYU_THROUGH = maps;
+        })();
+    }
+    return throughReady;
+}
+function chainEnd(lineName, idx, map) {
+    let cur = { line: lineName, idx };
+    const seen = new Set();
+    while (true) {
+        const k = cur.line + "#" + cur.idx;
+        if (seen.has(k)) break;
+        seen.add(k);
+        const nk = map[k];
+        if (!nk) break;
+        const sep = nk.lastIndexOf("#");
+        cur = { line: nk.slice(0, sep), idx: +nk.slice(sep + 1) };
+    }
+    return cur;
+}
+function trueDestOf(lineName, trains, idx) {
+    const end = chainEnd(lineName, idx, throughNext);
+    const t = (throughLineTrains[end.line] || trains)[end.idx];
+    if (!t) return "";
+    const evs = t.stops.filter(s => isValidTime(s.time));
+    return evs.length ? evs[evs.length - 1].station : "";
+}
+function trueOriginOf(lineName, trains, idx) {
+    const end = chainEnd(lineName, idx, throughPrev);
+    const t = (throughLineTrains[end.line] || trains)[end.idx];
+    if (!t) return "";
+    const evs = t.stops.filter(s => isValidTime(s.time));
+    return evs.length ? evs[0].station : "";
+}
+
+// 路線の駅並び（下り方向の順）。位置情報ページと同じ決め方
+function canonicalStations(trains) {
+    let best = null;
+    for (const t of trains) {
+        if (!best || t.stops.length > best.stops.length ||
+            (t.stops.length === best.stops.length && t.direction === "下り" && best.direction !== "下り")) best = t;
+    }
+    if (!best) return [];
+    let rows = best.stops.map(s => s.station);
+    if (best.direction === "上り") rows = rows.slice().reverse();
+    return rows.filter((s, i) => i === 0 || s !== rows[i - 1]);
+}
+
+function trainLabel(train, lineName) {
+    const ty = train.type || "", nm = train.name || "";
+    if (lineName === "中央高速線") {
+        const id = parseInt(train.id, 10);
+        if (!isNaN(id) && id >= 1000 && id <= 4999) return nm + (id % 1000) + "号";
+    }
+    if (nm && ty && nm.indexOf(ty) !== 0) return ty + " " + nm;
+    return nm || ty;
+}
+function typeColor(train) {
+    if (TYPE_COLORS[train.name]) return TYPE_COLORS[train.name];
+    if (TYPE_COLORS[train.type]) return TYPE_COLORS[train.type];
+    return "#607d8b";
+}
+function typeTag(train, lineName) {
+    if ((lineName === "中央高速線" || lineName === "今宮高速線") && train.name) return train.name;
+    return train.type || "";
+}
+// 分の文字色：各停・普通は黒、それ以外（優等・愛称列車）は種別色
+function minuteColor(train) {
+    if (LOCAL_TYPES.includes(train.type)) return "";
+    return typeColor(train);
+}
+
+// その駅・その方面の発車一覧。終着（到着のみ）の列車と通過列車は含めない
+// dest は直通先までたどった本当の終着駅、origin は直通元までたどった本当の始発駅
+function departuresFor(trains, station, direction, lineName) {
+    const out = [];
+    trains.forEach((t, idx) => {
+        if (t.direction !== direction) return;
+        if (t.type === "回送" || t.type === "試運転") return;
+        const events = [];
+        for (const s of t.stops) if (isValidTime(s.time)) events.push(s);
+        let depIdx = -1;
+        for (let i = 0; i < events.length - 1; i++) if (events[i].station === station) depIdx = i;
+        if (depIdx < 0) return;
+        const mins = parseTime(events[depIdx].time);
+        const ownDest = events[events.length - 1].station;
+        out.push({
+            sortMin: (mins < 240 ? mins + 1440 : mins),
+            hour: Math.floor(mins / 60),
+            minute: mins % 60,
+            dest: lineName ? (trueDestOf(lineName, trains, idx) || ownDest) : ownDest,
+            ownDest,
+            origin: lineName ? trueOriginOf(lineName, trains, idx) : "",
+            legFrom: events[0].station,
+            train: t
+        });
+    });
+    out.sort((a, b) => a.sortMin - b.sortMin);
+    return out;
+}
+
+const $ = id => document.getElementById(id);
+let seq = 0;
+
+function stationLines(name) {
+    const entries = stationEntries.filter(e => e.name === name);
+    const lines = [];
+    for (const e of entries) for (const ln of e.lines) if (!lines.includes(ln)) lines.push(ln);
+    return { entries, lines };
+}
+
+async function selectStation(name) {
+    const token = ++seq;
+    state.station = name; state.line = null; state.dir = null;
+    $("dirStep").innerHTML = "";
+    $("ttResult").innerHTML = "";
+    const { entries, lines } = stationLines(name);
+    if (!entries.length) {
+        $("lineStep").innerHTML = '<div class="tt-empty">「' + name + '」という駅は見つかりませんでした。</div>';
+        return;
+    }
+    const usable = lines.filter(ln => LINE_FILES.some(x => x.file === ln + ".json"));
+    $("lineStep").innerHTML = '<div class="tt-step-label"><span class="tt-step-station">' + name + "駅</span>　路線を選んでください</div>" +
+        '<div class="tt-chips">' + usable.map(ln => {
+            const lf = LINE_FILES.find(x => x.file === ln + ".json");
+            return '<button type="button" class="tt-chip" data-line="' + ln + '"><span class="tt-chip-dot" style="background:' + lf.color + '"></span>' + ln + "</button>";
+        }).join("") + "</div>";
+    $("lineStep").querySelectorAll(".tt-chip").forEach(btn => {
+        btn.addEventListener("click", () => selectLine(btn.dataset.line));
+    });
+    if (usable.length === 1) selectLine(usable[0]);
+}
+
+async function selectLine(lineName) {
+    const token = ++seq;
+    state.line = lineName; state.dir = null;
+    $("ttResult").innerHTML = "";
+    $("lineStep").querySelectorAll(".tt-chip").forEach(b => b.classList.toggle("selected", b.dataset.line === lineName));
+    const lf = LINE_FILES.find(x => x.file === lineName + ".json");
+    $("dirStep").innerHTML = '<div class="tt-step-label">方面を選んでください</div><div class="tt-chips"><span style="color:#567;font-size:13.5px">読み込み中…</span></div>';
+    const trains = await visibleLineTrains(lf.file);
+    if (token !== seq) return;
+    const rows = canonicalStations(trains);
+    const dirs = [
+        { dir: "下り", terminal: rows[rows.length - 1] },
+        { dir: "上り", terminal: rows[0] }
+    ];
+    $("dirStep").innerHTML = '<div class="tt-step-label">方面を選んでください</div><div class="tt-chips">' +
+        dirs.map(d => {
+            const n = departuresFor(trains, state.station, d.dir).length;
+            return '<button type="button" class="tt-chip" data-dir="' + d.dir + '"' + (n ? "" : " disabled") + ">" +
+                d.dir + "　" + (d.terminal || "") + '方面<span class="tt-chip-count">' + n + "本</span></button>";
+        }).join("") + "</div>";
+    $("dirStep").querySelectorAll(".tt-chip").forEach(btn => {
+        btn.addEventListener("click", () => selectDir(btn.dataset.dir));
+    });
+}
+
+async function selectDir(dir) {
+    const token = ++seq;
+    state.dir = dir;
+    $("dirStep").querySelectorAll(".tt-chip").forEach(b => b.classList.toggle("selected", b.dataset.dir === dir));
+    const lf = LINE_FILES.find(x => x.file === state.line + ".json");
+    const trains = await visibleLineTrains(lf.file);
+    await ensureThrough();
+    if (token !== seq) return;
+    renderBoard(trains, lf);
+}
+
+function renderBoard(trains, lf) {
+    const rows = canonicalStations(trains);
+    const terminal = state.dir === "下り" ? rows[rows.length - 1] : rows[0];
+    const deps = departuresFor(trains, state.station, state.dir, state.line);
+    if (!deps.length) {
+        $("ttResult").innerHTML = '<div class="tt-empty">この方面に発車する列車はありません。</div>';
+        return;
+    }
+    // 行き先マーク：最頻の行き先は無印、それ以外は駅名の頭文字（重なる場合は2文字）
+    const destCount = new Map();
+    for (const d of deps) destCount.set(d.dest, (destCount.get(d.dest) || 0) + 1);
+    const primaryDest = [...destCount].sort((a, b) => b[1] - a[1])[0][0];
+    const otherDests = [...destCount.keys()].filter(d => d !== primaryDest);
+    const firstCharCount = new Map();
+    for (const d of otherDests) firstCharCount.set(d[0], (firstCharCount.get(d[0]) || 0) + 1);
+    const markOf = d => d === primaryDest ? "" : (firstCharCount.get(d[0]) > 1 ? d.slice(0, 2) : d[0]);
+    const byHour = new Map();
+    for (const dep of deps) {
+        if (!byHour.has(dep.hour)) byHour.set(dep.hour, []);
+        byHour.get(dep.hour).push(dep);
+    }
+    let html = '<div class="board">' +
+        '<div class="board-head" style="background:' + lf.color + '">' +
+        '<span class="bh-line">' + state.line + '</span>' +
+        '<span class="bh-dir">' + state.dir + "　" + (terminal || "") + '方面</span>' +
+        '<span class="bh-tt">TIMETABLE</span></div>' +
+        '<div class="board-station"><span class="bs-name">' + state.station + '</span><span class="bs-sub">駅　発車時刻表</span></div>';
+    for (const [hour, list] of byHour) {
+        html += '<div class="b-hour"><div class="b-hour-num"><b>' + hour + '</b><small>時</small></div><div class="b-mins">';
+        for (const dep of list) {
+            const mc = minuteColor(dep.train);
+            const mark = markOf(dep.dest);
+            const originNote = dep.origin && dep.origin !== dep.legFrom ? "・" + dep.origin + "始発" : "";
+            html += '<span class="b-min"' + (mc ? ' style="color:' + mc + '"' : "") + ' title="' +
+                trainLabel(dep.train, state.line) + " " + dep.dest + "行 " + dep.hour + ":" + String(dep.minute).padStart(2, "0") + "発" + originNote + '">' +
+                (mark ? '<span class="b-mark">' + mark + "</span>" : "") +
+                String(dep.minute).padStart(2, "0") + "</span>";
+        }
+        html += "</div></div>";
+    }
+    // 凡例
+    const typeSet = new Map();
+    for (const dep of deps) {
+        const tag = typeTag(dep.train, state.line);
+        if (tag && !LOCAL_TYPES.includes(dep.train.type) && !typeSet.has(tag)) typeSet.set(tag, typeColor(dep.train));
+    }
+    let legend = '<div class="board-legend"><div class="bl-row"><span><b>無印</b>＝' + primaryDest + "行</span>" +
+        otherDests.map(d => "<span><b>" + markOf(d) + "</b>＝" + d + "行</span>").join("") + "</div>";
+    if (typeSet.size) {
+        legend += '<div class="bl-row">' + [...typeSet].map(([tag, c]) =>
+            '<span class="bl-type"><i style="background:' + c + '"></i><span style="color:' + c + ';font-weight:700">' + tag + "</span></span>").join("") +
+            '<span>※色付きの数字は各種別列車の発車時刻です</span></div>';
+    }
+    if (deps.some(d => d.dest !== d.ownDest)) {
+        legend += '<div class="bl-row"><span>※行き先は直通先の最終駅を表示しています</span></div>';
+    }
+    legend += "</div>";
+    html += legend + "</div>";
+    $("ttResult").innerHTML = html;
+}
+
+// 駅名サジェスト（乗換案内と同じ、前方一致を優先）
+function stationSuggestions(q) {
+    if (!q) return [];
+    const seen = new Map();
+    for (const e of stationEntries) {
+        if (!seen.has(e.name)) seen.set(e.name, []);
+        for (const ln of e.lines) if (!seen.get(e.name).includes(ln)) seen.get(e.name).push(ln);
+    }
+    const all = [...seen].map(([name, lines]) => ({ name, lines }));
+    const pre = all.filter(x => x.name.startsWith(q));
+    const sub = all.filter(x => !x.name.startsWith(q) && x.name.includes(q));
+    return pre.concat(sub).slice(0, 12);
+}
+function setupPicker() {
+    const input = $("stInput"), box = $("stSuggest");
+    let activeIdx = -1;
+    function close() { box.innerHTML = ""; activeIdx = -1; }
+    function show() {
+        const items = stationSuggestions(input.value.trim());
+        activeIdx = -1;
+        box.innerHTML = items.map(x => '<div class="tt-suggest-item" data-name="' + x.name + '">' + x.name +
+            '<span class="tt-suggest-lines">' + x.lines.join("・") + "</span></div>").join("");
+    }
+    function go() {
+        const name = input.value.trim();
+        if (name) selectStation(name);
+    }
+    input.addEventListener("input", show);
+    input.addEventListener("focus", show);
+    box.addEventListener("click", e => {
+        const item = e.target.closest(".tt-suggest-item");
+        if (!item) return;
+        input.value = item.dataset.name;
+        close();
+        selectStation(item.dataset.name);
+    });
+    input.addEventListener("keydown", e => {
+        const items = [...box.querySelectorAll(".tt-suggest-item")];
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+            e.preventDefault();
+            if (!items.length) return;
+            activeIdx = e.key === "ArrowDown" ? Math.min(activeIdx + 1, items.length - 1) : Math.max(activeIdx - 1, 0);
+            items.forEach((el, i) => el.classList.toggle("active", i === activeIdx));
+        } else if (e.key === "Enter") {
+            if (activeIdx >= 0 && items[activeIdx]) {
+                input.value = items[activeIdx].dataset.name;
+                close();
+                selectStation(input.value);
+            } else { close(); go(); }
+        } else if (e.key === "Escape") close();
+    });
+    document.addEventListener("click", e => { if (!e.target.closest(".tt-controls")) close(); });
+    $("ttBtn").addEventListener("click", go);
+}
+
+(async function init() {
+    try {
+        await loadStations();
+    } catch (e) {
+        $("ttStatus").textContent = "駅データを読み込めませんでした。";
+        return;
+    }
+    $("ttStatus").textContent = "";
+    const dateEl = $("ttDate");
+    if (dateEl) {
+        dateEl.value = OPS_DATE;
+        dateEl.addEventListener("change", () => {
+            if (!dateEl.value) return;
+            OPS_DATE = dateEl.value;
+            throughReady = null;
+            if (state.dir) selectDir(state.dir);
+            else if (state.line) selectLine(state.line);
+            else if (state.station) selectStation(state.station);
+        });
+    }
+    setupPicker();
+    const q = new URLSearchParams(location.search).get("station");
+    if (q) {
+        $("stInput").value = q;
+        selectStation(q);
+    }
+})();
+</script>
+</body>
+</html>

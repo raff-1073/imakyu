@@ -1,0 +1,2589 @@
+{
+ "line": "臨海線",
+ "trains": [
+  {
+   "id": "1001M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "05:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "05:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "05:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "05:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "05:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1003M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "05:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "05:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "05:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "05:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "05:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1005M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "06:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "06:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "06:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "06:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1007M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "06:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "06:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "06:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "06:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1009M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "07:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "07:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "07:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "07:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "07:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1011M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "07:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "07:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "07:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "07:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1013M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "08:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "08:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "08:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "08:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "08:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1015M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "08:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "08:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "08:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "08:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "08:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1017M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "09:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "09:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "09:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "09:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "09:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1019M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "09:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "09:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "09:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "09:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "09:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1021M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "10:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "10:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "10:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "10:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "10:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1023M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "10:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "10:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "10:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "10:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1025M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "11:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "11:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "11:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "11:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1027M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "11:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "11:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "11:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "11:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "11:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1029M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "12:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "12:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "12:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "12:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "12:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1031M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "12:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "12:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "12:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "12:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "12:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1033M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "13:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "13:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "13:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "13:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "13:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1035M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "13:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "13:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "13:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "13:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1037M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "14:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "14:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "14:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "14:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "14:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1039M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "14:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "14:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "14:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "14:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1041M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "15:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "15:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "15:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "15:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "15:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1043M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "15:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "15:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "15:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "15:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1045M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "16:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "16:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "16:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "16:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "16:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1047M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "16:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "16:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "16:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "16:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1049M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "17:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "17:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "17:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "17:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "17:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1051M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "17:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "17:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "17:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "17:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1053M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "18:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "18:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "18:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "18:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "18:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1055M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "18:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "18:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "18:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "18:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1057M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "19:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "19:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "19:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "19:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1059M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "19:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "19:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "19:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1061M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "20:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "20:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "20:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "20:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "20:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1063M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "20:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "20:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "20:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "20:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1065M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "21:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "21:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "21:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "21:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "21:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1067M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "21:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "21:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "21:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "21:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "21:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1069M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "22:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "22:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "22:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "22:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "22:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1071M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "22:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "22:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "22:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "22:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1073M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "23:05"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "23:08"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "23:12"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "23:15"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "23:17"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1075M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "鎌中",
+     "kind": "発",
+     "time": "23:35"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "23:38"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "23:42"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "23:45"
+    },
+    {
+     "station": "横倉港",
+     "kind": "着",
+     "time": "23:47"
+    }
+   ],
+   "direction": "下り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1002M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "05:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "05:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "05:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "05:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1004M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "05:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "05:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "06:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1006M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "06:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "06:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1008M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "06:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "07:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1010M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "07:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "07:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1012M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "07:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "07:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "08:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1014M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "08:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "08:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "08:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1016M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "08:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "09:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1018M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "09:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "09:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "09:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1020M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "09:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "09:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "10:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1022M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "10:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "10:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "10:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1024M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "10:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "10:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "11:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1026M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "11:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "11:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1028M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "11:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "11:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "12:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1030M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "12:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "12:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "12:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1032M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "12:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "12:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "13:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1034M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "13:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "13:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1036M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "13:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "13:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "14:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1038M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "14:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "14:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "14:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1040M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "14:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "14:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "15:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1042M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "15:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "15:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1044M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "15:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "15:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "16:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1046M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "16:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "16:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "16:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1048M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "16:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "16:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "17:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1050M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "17:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "17:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1052M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "17:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "17:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "18:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1054M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "18:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "18:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "18:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1056M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "18:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "18:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "19:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1058M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "19:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "19:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1060M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "19:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "19:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "20:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1062M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "20:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "20:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "20:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1064M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "20:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "20:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "21:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1066M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "21:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "21:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1068M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "21:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "21:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "22:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1070M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "22:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "22:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "22:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1072M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "22:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "22:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "23:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1074M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "23:20"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "23:23"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "23:30"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "23:32"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  },
+  {
+   "id": "1076M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "横倉港",
+     "kind": "発",
+     "time": "23:50"
+    },
+    {
+     "station": "北港",
+     "kind": "発",
+     "time": "23:53"
+    },
+    {
+     "station": "菊山",
+     "kind": "発",
+     "time": "23:56"
+    },
+    {
+     "station": "南鎌中",
+     "kind": "発",
+     "time": "00:00"
+    },
+    {
+     "station": "鎌中",
+     "kind": "着",
+     "time": "00:02"
+    }
+   ],
+   "direction": "上り",
+   "line": "臨海線"
+  }
+ ]
+}

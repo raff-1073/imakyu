@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>運転日の管理（臨時列車・運休）｜今急電鉄</title>
+<script src="data/js/operations.js"></script>
+<style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; background: #f2f5f8; color: #1c2b3a; }
+    header { background: #003a70; color: #fff; padding: 18px 20px; }
+    header h1 { margin: 0; font-size: 20px; }
+    header p { margin: 6px 0 0; font-size: 13px; opacity: .85; }
+    main { max-width: 880px; margin: 0 auto; padding: 18px 14px 40px; }
+    section { background: #fff; border-radius: 12px; padding: 16px 18px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,40,80,.08); }
+    h2 { font-size: 16px; margin: 0 0 10px; border-left: 4px solid #0068b7; padding-left: 8px; }
+    p.note { font-size: 13px; color: #456; line-height: 1.7; }
+    table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+    th, td { border-bottom: 1px solid #e3eaf1; padding: 7px 8px; text-align: left; vertical-align: top; }
+    th { color: #456; font-weight: 600; white-space: nowrap; }
+    .empty { color: #789; font-size: 13.5px; padding: 8px 0; }
+    label { display: block; font-size: 13px; font-weight: 600; color: #345; margin: 12px 0 4px; }
+    input[type="text"], input[type="date"], select, textarea {
+        width: 100%; padding: 8px 10px; font-size: 14.5px; border: 1px solid #b9c6d2; border-radius: 8px; background: #fff;
+    }
+    textarea { min-height: 74px; font-family: inherit; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+    button { cursor: pointer; border: none; border-radius: 8px; padding: 10px 18px; font-size: 14.5px; font-weight: 700; }
+    .primary { background: #0068b7; color: #fff; margin-top: 14px; }
+    .danger { background: #fff; color: #b03a2e; border: 1px solid #d8a49e; padding: 5px 10px; font-size: 12.5px; }
+    .sub { background: #e8eef4; color: #234; margin-top: 10px; }
+    .tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 20px; background: #e8eef4; color: #345; margin-right: 4px; }
+    .tag.only { background: #e2f2e4; color: #27632f; }
+    .tag.except { background: #fbe9e7; color: #93392f; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    a { color: #0068b7; }
+</style>
+</head>
+<body>
+<header>
+    <h1>運転日の管理（臨時列車・運休）</h1>
+    <p>運転が決まった臨時列車や、運休・期間限定の運転日をここで追加できます。追加した内容は、このブラウザで開く乗換案内・各駅時刻表・列車位置情報に反映されます。</p>
+</header>
+<main>
+
+<section>
+    <h2>使い方</h2>
+    <p class="note">
+        ・<b>運転日ルール</b>：もともとダイヤにある列車に「この日だけ運転」「この日は運休」を付けます。列車名か種別で対象を指定します（両方入れると両方に一致する列車だけ）。<br>
+        ・<b>臨時列車の追加</b>：ダイヤにない列車を、停車駅と時刻を入力して丸ごと追加します。運転日を指定した日だけ現れます。<br>
+        ・日付は1行に1つ。<b>2026-12-31</b> のような単日か、<b>2026-12-29/2027-01-03</b> のような期間で書けます。<br>
+        ・サイト全体（他の人のブラウザ）にも反映したいときは、下の「operations.json を書き出す」でファイルを書き出して、サイトの data/json/operations.json と差し替えてください（きなこに送ってくれてもOK）。
+    </p>
+</section>
+
+<section>
+    <h2>登録済みの運転日ルール</h2>
+    <div id="ruleList"></div>
+</section>
+
+<section>
+    <h2>登録済みの臨時列車</h2>
+    <div id="extraList"></div>
+</section>
+
+<section>
+    <h2>運転日ルールを追加</h2>
+    <div class="row">
+        <div>
+            <label for="rLine">路線</label>
+            <select id="rLine"></select>
+        </div>
+        <div>
+            <label for="rMode">種類</label>
+            <select id="rMode">
+                <option value="only">この日だけ運転（臨時・運転日限定）</option>
+                <option value="except">この日は運休</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <label for="rName">列車名（空欄可）</label>
+            <input id="rName" type="text" placeholder="例：すいせい">
+        </div>
+        <div>
+            <label for="rType">種別（空欄可）</label>
+            <input id="rType" type="text" placeholder="例：臨特急">
+        </div>
+    </div>
+    <label for="rDates">日付（1行に1つ）</label>
+    <textarea id="rDates" placeholder="2026-12-29/2027-01-03&#10;2027-01-10"></textarea>
+    <button class="primary" id="addRule" type="button">ルールを追加</button>
+</section>
+
+<section>
+    <h2>臨時列車を追加</h2>
+    <div class="row">
+        <div>
+            <label for="eLine">路線</label>
+            <select id="eLine"></select>
+        </div>
+        <div>
+            <label for="eDir">方向</label>
+            <select id="eDir">
+                <option value="下り">下り</option>
+                <option value="上り">上り</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <label for="eName">列車名（空欄可）</label>
+            <input id="eName" type="text" placeholder="例：初詣号">
+        </div>
+        <div>
+            <label for="eType">種別</label>
+            <input id="eType" type="text" placeholder="例：臨特急">
+        </div>
+    </div>
+    <label for="eDates">運転日（1行に1つ）</label>
+    <textarea id="eDates" placeholder="2027-01-01/2027-01-03"></textarea>
+    <label for="eStops">停車駅（1行に1駅：「駅名,発,8:00」／着は「駅名,着,8:02」／通過は時刻を ﾚ に）</label>
+    <textarea id="eStops" style="min-height:120px" placeholder="有坂,発,8:00&#10;新輝山,着,8:24&#10;新輝山,発,8:25&#10;長野,着,9:40"></textarea>
+    <button class="primary" id="addExtra" type="button">臨時列車を追加</button>
+</section>
+
+<section>
+    <h2>データの書き出し・読み込み</h2>
+    <p class="note">書き出すと、同梱分とこの端末の追加分を合わせた operations.json がダウンロードできます。</p>
+    <div class="actions">
+        <button class="sub" id="exportBtn" type="button">operations.json を書き出す</button>
+        <label class="sub" style="margin-top:10px; padding:10px 18px; border-radius:8px; font-weight:700; cursor:pointer;">
+            operations.json を読み込む
+            <input id="importFile" type="file" accept=".json" style="display:none">
+        </label>
+        <button class="sub" id="clearBtn" type="button">この端末の追加分をすべて消す</button>
+    </div>
+    <p class="note"><a href="search/">乗換案内</a> ／ <a href="timetable.html">各駅時刻表</a> ／ <a href="location.html">列車位置情報</a></p>
+</section>
+
+</main>
+<script>
+const LINES = ["中央線", "中央高速線", "今宮本線", "今宮高速線", "北倉線", "吉田線", "吉野線", "吹雪環状線", "和阪線", "多田本線", "大川線", "大野線", "小岩線・小阪線", "山北線", "扶桑本線", "拠点本線", "新拠点線", "新沢線", "朝日線・小出線", "松代線", "森浜線", "横倉空港線・河合本線・横倉スカイアクセス線", "横倉空港線（横倉）", "水上線・西田線", "河津高速線・拠点高速線", "河田線", "浜田本線", "浜見線", "田原線", "磯電線・技輪ドーム線・拠点小岩ライン", "秋川本線", "臨海線", "赤倉本線", "赤倉港線", "赤津線", "都心環状線", "青山線", "黒崎小岩ライン"];
+const LS_KEY = "imakyu_ops_local";
+const bundled = window.IMAKYU_OPERATIONS || { rules: [], extraTrains: [] };
+
+function loadLocal() {
+    try {
+        const v = JSON.parse(localStorage.getItem(LS_KEY) || "null");
+        if (v) return { rules: v.rules || [], extraTrains: v.extraTrains || [] };
+    } catch (e) {}
+    return { rules: [], extraTrains: [] };
+}
+function saveLocal(local) {
+    localStorage.setItem(LS_KEY, JSON.stringify(local));
+}
+function parseDates(text) {
+    return text.split(/\n/).map(x => x.trim()).filter(Boolean);
+}
+function ruleLabel(r) {
+    const target = [r.name, r.type].filter(Boolean).join(" ") || "（対象指定なし）";
+    return target;
+}
+function render() {
+    const local = loadLocal();
+    const rl = document.getElementById("ruleList");
+    const rows = [];
+    (bundled.rules || []).forEach(r => rows.push({ r, src: "同梱", idx: -1 }));
+    local.rules.forEach((r, i) => rows.push({ r, src: "この端末", idx: i }));
+    if (!rows.length) {
+        rl.innerHTML = '<div class="empty">まだ登録がありません。</div>';
+    } else {
+        rl.innerHTML = "<table><tr><th>路線</th><th>対象</th><th>種類</th><th>日付</th><th>出所</th><th></th></tr>" +
+            rows.map(x => "<tr><td>" + (x.r.line || "全線") + "</td><td>" + ruleLabel(x.r) + "</td><td>" +
+                (x.r.mode === "except" ? '<span class="tag except">運休</span>' : '<span class="tag only">この日だけ運転</span>') +
+                "</td><td>" + (x.r.dates || []).join("<br>") + "</td><td>" + x.src + "</td><td>" +
+                (x.idx >= 0 ? '<button class="danger" data-del-rule="' + x.idx + '" type="button">削除</button>' : "") + "</td></tr>").join("") + "</table>";
+    }
+    const el = document.getElementById("extraList");
+    const erows = [];
+    (bundled.extraTrains || []).forEach(t => erows.push({ t, src: "同梱", idx: -1 }));
+    local.extraTrains.forEach((t, i) => erows.push({ t, src: "この端末", idx: i }));
+    if (!erows.length) {
+        el.innerHTML = '<div class="empty">まだ登録がありません。</div>';
+    } else {
+        el.innerHTML = "<table><tr><th>路線</th><th>列車</th><th>区間</th><th>運転日</th><th>出所</th><th></th></tr>" +
+            erows.map(x => {
+                const stops = (x.t.stops || []).filter(s => s.time && s.time !== "ﾚ");
+                const from = stops.length ? stops[0].station : "";
+                const to = stops.length ? stops[stops.length - 1].station : "";
+                return "<tr><td>" + x.t.line + "</td><td>" + ((x.t.type || "") + " " + (x.t.name || "")).trim() + "</td><td>" +
+                    from + " → " + to + "</td><td>" + (x.t.dates || []).join("<br>") + "</td><td>" + x.src + "</td><td>" +
+                    (x.idx >= 0 ? '<button class="danger" data-del-extra="' + x.idx + '" type="button">削除</button>' : "") + "</td></tr>";
+            }).join("") + "</table>";
+    }
+    rl.querySelectorAll("[data-del-rule]").forEach(b => b.addEventListener("click", () => {
+        const l = loadLocal(); l.rules.splice(Number(b.dataset.delRule), 1); saveLocal(l); render();
+    }));
+    el.querySelectorAll("[data-del-extra]").forEach(b => b.addEventListener("click", () => {
+        const l = loadLocal(); l.extraTrains.splice(Number(b.dataset.delExtra), 1); saveLocal(l); render();
+    }));
+}
+
+for (const id of ["rLine", "eLine"]) {
+    const sel = document.getElementById(id);
+    sel.innerHTML = LINES.map(l => '<option value="' + l + '">' + l + "</option>").join("");
+}
+
+document.getElementById("addRule").addEventListener("click", () => {
+    const name = document.getElementById("rName").value.trim();
+    const type = document.getElementById("rType").value.trim();
+    const dates = parseDates(document.getElementById("rDates").value);
+    if (!name && !type) { alert("列車名か種別のどちらかを入れてください。"); return; }
+    if (!dates.length) { alert("日付を入れてください。"); return; }
+    const local = loadLocal();
+    const rule = { line: document.getElementById("rLine").value, mode: document.getElementById("rMode").value, dates };
+    if (name) rule.name = name;
+    if (type) rule.type = type;
+    local.rules.push(rule);
+    saveLocal(local);
+    render();
+    alert("ルールを追加しました。乗換案内などで日付を選ぶと反映されます。");
+});
+
+document.getElementById("addExtra").addEventListener("click", () => {
+    const dates = parseDates(document.getElementById("eDates").value);
+    const stopLines = document.getElementById("eStops").value.split(/\n/).map(x => x.trim()).filter(Boolean);
+    if (!dates.length) { alert("運転日を入れてください。"); return; }
+    if (stopLines.length < 2) { alert("停車駅を2駅以上入れてください。"); return; }
+    const stops = [];
+    for (const line of stopLines) {
+        const parts = line.split(",").map(x => x.trim());
+        if (parts.length < 3) { alert("停車駅の形式が違う行があります：「" + line + "」"); return; }
+        stops.push({ station: parts[0], kind: parts[1], time: parts[2] });
+    }
+    const local = loadLocal();
+    local.extraTrains.push({
+        line: document.getElementById("eLine").value,
+        type: document.getElementById("eType").value.trim(),
+        name: document.getElementById("eName").value.trim(),
+        direction: document.getElementById("eDir").value,
+        dates, stops
+    });
+    saveLocal(local);
+    render();
+    alert("臨時列車を追加しました。運転日にだけ、乗換案内・時刻表・位置情報に現れます。");
+});
+
+document.getElementById("exportBtn").addEventListener("click", () => {
+    const local = loadLocal();
+    const merged = {
+        rules: (bundled.rules || []).concat(local.rules),
+        extraTrains: (bundled.extraTrains || []).concat(local.extraTrains)
+    };
+    const blob = new Blob([JSON.stringify(merged, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "operations.json";
+    a.click();
+    URL.revokeObjectURL(a.href);
+});
+
+document.getElementById("importFile").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+        const data = JSON.parse(await file.text());
+        const bRules = new Set((bundled.rules || []).map(r => JSON.stringify(r)));
+        const bExtras = new Set((bundled.extraTrains || []).map(t => JSON.stringify(t)));
+        saveLocal({
+            rules: (data.rules || []).filter(r => !bRules.has(JSON.stringify(r))),
+            extraTrains: (data.extraTrains || []).filter(t => !bExtras.has(JSON.stringify(t)))
+        });
+        render();
+        alert("読み込みました（同梱分と重なる分は除いてあります）。");
+    } catch (err) {
+        alert("読み込めませんでした。operations.json の形式を確認してください。");
+    }
+    e.target.value = "";
+});
+
+document.getElementById("clearBtn").addEventListener("click", () => {
+    if (!confirm("この端末で追加したルールと臨時列車をすべて消します。よろしいですか？")) return;
+    saveLocal({ rules: [], extraTrains: [] });
+    render();
+});
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,2421 @@
+{
+  "line": "青山線",
+  "trains": [
+    {
+      "id": "1001M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "05:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "05:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "05:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "05:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "05:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1003M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "05:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "05:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "05:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "06:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "06:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "06:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "06:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "06:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "06:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "06:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1005M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "06:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "06:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "06:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "07:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "07:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "07:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "07:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "07:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "07:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "07:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1007M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "07:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "07:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "07:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "08:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "08:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "08:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "08:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "08:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "08:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "08:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1009M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "08:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "08:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "08:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "09:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "09:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "09:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "09:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "09:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "09:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "09:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1011M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "09:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "09:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "09:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "10:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "10:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "10:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "10:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "10:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "10:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "10:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1013M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "10:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "10:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "10:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "11:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "11:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "11:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "11:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "11:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "11:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "11:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1015M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "11:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "11:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "11:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "12:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "12:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "12:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "12:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "12:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "12:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "12:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1017M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "12:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "12:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "12:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "13:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "13:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "13:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "13:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "13:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "13:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "13:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1019M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "13:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "13:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "13:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "14:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "14:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "14:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "14:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "14:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "14:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "14:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1021M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "14:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "14:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "14:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "15:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "15:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "15:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "15:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "15:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "15:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "15:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1023M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "15:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "15:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "15:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "16:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "16:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "16:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "16:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "16:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "16:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "16:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1025M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "16:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "16:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "16:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "17:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "17:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "17:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "17:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "17:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "17:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "17:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1027M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "17:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "17:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "17:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "18:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "18:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "18:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "18:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "18:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "18:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "18:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1029M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "18:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "18:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "18:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "19:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "19:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "19:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "19:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "19:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "19:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "19:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1031M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "19:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "19:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "19:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "20:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "20:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "20:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "20:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "20:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "20:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "20:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1033M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "20:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "20:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "20:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "21:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "21:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "21:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "21:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "21:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "21:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "21:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1035M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "21:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "21:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "21:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "22:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "22:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "22:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "22:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "22:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "22:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "22:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1037M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "22:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "22:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "22:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "23:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "23:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "23:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "23:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "23:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "23:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "23:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1039M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "23:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "23:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "23:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "00:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "00:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "00:23"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "00:28"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "00:33"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "00:38"
+        },
+        {
+          "station": "北乃台",
+          "kind": "着",
+          "time": "00:43"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1041M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "00:48"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "00:53"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "00:58"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "01:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "01:08"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "||"
+        }
+      ],
+      "direction": "下り"
+    },
+    {
+      "id": "1002M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "05:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "05:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "05:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "05:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "05:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1004M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "05:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "05:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "05:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "06:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "06:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "06:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "06:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "06:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "06:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "06:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1006M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "06:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "06:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "06:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "07:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "07:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "07:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "07:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "07:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "07:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "07:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1008M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "07:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "07:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "07:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "08:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "08:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "08:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "08:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "08:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "08:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "08:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1010M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "08:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "08:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "08:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "09:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "09:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "09:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "09:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "09:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "09:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "09:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1012M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "09:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "09:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "09:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "10:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "10:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "10:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "10:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "10:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "10:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "10:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1014M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "10:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "10:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "10:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "11:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "11:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "11:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "11:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "11:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "11:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "11:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1016M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "11:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "11:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "11:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "12:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "12:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "12:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "12:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "12:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "12:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "12:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1018M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "12:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "12:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "12:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "13:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "13:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "13:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "13:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "13:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "13:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "13:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1020M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "13:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "13:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "13:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "14:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "14:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "14:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "14:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "14:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "14:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "14:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1022M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "14:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "14:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "14:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "15:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "15:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "15:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "15:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "15:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "15:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "15:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1024M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "15:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "15:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "15:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "16:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "16:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "16:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "16:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "16:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "16:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "16:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1026M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "16:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "16:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "16:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "17:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "17:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "17:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "17:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "17:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "17:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "17:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1028M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "17:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "17:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "17:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "18:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "18:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "18:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "18:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "18:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "18:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "18:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1030M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "18:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "18:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "18:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "19:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "19:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "19:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "19:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "19:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "19:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "19:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1032M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "19:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "19:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "19:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "20:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "20:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "20:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "20:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "20:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "20:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "20:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1034M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "20:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "20:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "20:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "21:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "21:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "21:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "21:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "21:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "21:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "21:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1036M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "21:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "21:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "21:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "22:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "22:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "22:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "22:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "22:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "22:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "22:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1038M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "22:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "22:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "22:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "23:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "23:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "23:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "23:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "23:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "23:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "23:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1040M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "23:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "23:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "23:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "00:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "00:08"
+        },
+        {
+          "station": "松浦",
+          "kind": "発",
+          "time": "00:23"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "00:28"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "00:33"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "00:38"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "着",
+          "time": "00:43"
+        }
+      ],
+      "direction": "上り"
+    },
+    {
+      "id": "1042M",
+      "type": "各停",
+      "name": "",
+      "stops": [
+        {
+          "station": "北乃台",
+          "kind": "発",
+          "time": "00:48"
+        },
+        {
+          "station": "田崎",
+          "kind": "発",
+          "time": "00:53"
+        },
+        {
+          "station": "森岸",
+          "kind": "発",
+          "time": "00:58"
+        },
+        {
+          "station": "白川",
+          "kind": "発",
+          "time": "01:03"
+        },
+        {
+          "station": "松浦",
+          "kind": "着",
+          "time": "01:08"
+        },
+        {
+          "station": "落合",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "森別",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "籠原",
+          "kind": "発",
+          "time": "||"
+        },
+        {
+          "station": "青山吉野",
+          "kind": "発",
+          "time": "||"
+        }
+      ],
+      "direction": "上り"
+    }
+  ]
+}

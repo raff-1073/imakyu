@@ -1,0 +1,2835 @@
+{
+ "line": "山北線",
+ "trains": [
+  {
+   "id": "1001M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "05:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "05:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "05:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "05:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "05:49"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "05:56"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "06:03"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "06:10"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1003M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "05:18"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "05:25"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "05:32"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "05:39"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "05:46"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "05:53"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "06:07"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "06:14"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "06:22"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "06:29"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "06:57"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "07:04"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "102",
+   "type": "寝特",
+   "name": "天空",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "06:18"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "06:49"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "07:08"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "07:53"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1005M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "06:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "06:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "06:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "06:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "06:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "06:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "07:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "07:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "07:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "07:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "07:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "07:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "07:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "07:49"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "08:10"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1007M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "07:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "07:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "07:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "07:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "07:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "08:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "08:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "08:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "08:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "08:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "08:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "08:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "08:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "08:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "09:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "101D",
+   "type": "快速",
+   "name": "横倉三橋城",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "09:15"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "10:05"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "10:06"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "10:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1009M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "09:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "09:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "09:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "09:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "09:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "09:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "10:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "10:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "10:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "10:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "10:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "10:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "10:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "10:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "10:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "11:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "103D",
+   "type": "快速",
+   "name": "横倉三橋城",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "12:05"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "12:06"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "12:49"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1011M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "11:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "11:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "11:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "11:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "11:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "11:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "12:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "12:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "12:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "12:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "12:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "12:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "12:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "12:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "12:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "13:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1013M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "13:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "13:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "13:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "13:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "13:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "13:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "14:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "14:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "14:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "14:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "14:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "14:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "14:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "14:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "14:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "15:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1015M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "15:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "15:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "15:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "15:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "15:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "15:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "16:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "16:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "16:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "16:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "16:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "16:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "16:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "16:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "16:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "17:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1017M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "17:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "17:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "17:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "17:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "17:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "18:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "18:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "18:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "18:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "18:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "18:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "18:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "18:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "18:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "19:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1019M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "19:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "19:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "19:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "19:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "19:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "19:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "20:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "20:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "20:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "20:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "20:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "20:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "20:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "20:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "20:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "21:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1021M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "21:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "21:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "21:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "21:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "21:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "21:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "22:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "22:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "22:16"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "22:18"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "22:25"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "22:32"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "22:39"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "22:46"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "22:53"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "23:07"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1023M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "23:20"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "23:27"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "23:34"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "23:41"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "23:48"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "23:55"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "00:02"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "00:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "00:16"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "下り",
+   "line": "山北線"
+  },
+  {
+   "id": "1000M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "05:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "05:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "05:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "05:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "05:48"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "05:55"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "06:02"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "06:09"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "06:16"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1002M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "05:26"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "05:33"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "05:40"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "05:47"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "05:54"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "06:01"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "06:08"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "06:13"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "06:22"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "06:29"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "06:48"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "06:55"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "07:02"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "07:09"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "07:16"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1004M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "06:22"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "06:29"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "06:43"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "06:50"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "06:57"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "07:04"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "07:09"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "07:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "07:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "07:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "07:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "07:50"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "07:57"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "08:04"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "08:11"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "08:18"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1006M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "07:13"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "07:20"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "07:27"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "07:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "08:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "08:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "08:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "08:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "08:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "08:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "08:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "08:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "08:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "08:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "09:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "09:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1008M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "09:18"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "09:25"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "09:32"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "09:39"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "09:46"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "09:53"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "10:05"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "10:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "10:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "10:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "10:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "10:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "10:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "11:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "11:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1010M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "11:18"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "11:25"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "11:32"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "11:39"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "11:46"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "11:53"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "12:05"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "12:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "12:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "12:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "12:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "12:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "12:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "12:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "13:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "13:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1012M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "13:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "13:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "13:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "13:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "13:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "14:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "14:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "14:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "14:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "14:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "14:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "14:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "14:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "15:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "15:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1014M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "15:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "15:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "15:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "15:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "15:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "16:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "16:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "16:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "16:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "16:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "16:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "16:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "16:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "17:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "17:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1016M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "17:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "17:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "17:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "17:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "17:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "18:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "18:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "18:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "18:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "18:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "18:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "18:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "18:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "19:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "19:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "102D",
+   "type": "快速",
+   "name": "横倉三橋城",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "17:34"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "18:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "18:16"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "18:35"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "19:06"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1018M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "19:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "19:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "19:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "19:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "19:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "20:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "20:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "20:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "20:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "20:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "20:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "20:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "20:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "21:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "21:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "104D",
+   "type": "快速",
+   "name": "横倉三橋城",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "19:34"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "20:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "20:16"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "20:35"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "21:06"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1020M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "21:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "21:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "21:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "21:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "21:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "22:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "22:15"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "22:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "22:24"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "22:31"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "22:38"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "22:52"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "22:59"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "23:06"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "23:13"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "1022M",
+   "type": "各停",
+   "name": "",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "着",
+     "time": "23:18"
+    },
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "23:28"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "23:35"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "23:42"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "23:49"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "23:56"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "00:03"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "00:10"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "00:17"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "||"
+    },
+    {
+     "station": "野田",
+     "kind": "発",
+     "time": "||"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  },
+  {
+   "id": "101",
+   "type": "寝特",
+   "name": "天空",
+   "stops": [
+    {
+     "station": "上沢亀山",
+     "kind": "発",
+     "time": "23:38"
+    },
+    {
+     "station": "上沢里崎",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "緑台",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "山北",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "伊江",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "下沢松丘",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "赤中",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "川倉",
+     "kind": "着",
+     "time": "00:19"
+    },
+    {
+     "station": "川倉",
+     "kind": "発",
+     "time": "00:20"
+    },
+    {
+     "station": "下沢小出",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "塩川",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "片瀬",
+     "kind": "発",
+     "time": "00:39"
+    },
+    {
+     "station": "北山",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "和倉",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "加美",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "八潮",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "野田",
+     "kind": "着",
+     "time": "01:10"
+    }
+   ],
+   "direction": "上り",
+   "line": "山北線"
+  }
+ ]
+}

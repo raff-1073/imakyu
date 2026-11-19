@@ -1,0 +1,3925 @@
+{
+ "line": "今宮高速線",
+ "trains": [
+  {
+   "id": "101M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "06:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "06:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "1M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "06:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "103M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "06:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "07:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "3M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "07:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "105M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "07:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "07:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "5M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "07:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "07:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "107M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "07:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "08:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "7M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "07:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "08:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "109M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "08:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "08:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "9M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "08:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "08:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "111M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "08:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "09:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "11M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "08:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "09:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "113M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "09:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "09:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "13M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "09:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "09:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "115M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "09:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "10:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "15M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "09:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "10:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "117M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "10:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "10:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "17M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "10:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "10:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "119M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "10:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "11:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "19M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "11:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "121M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "11:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "11:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "21M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "11:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "123M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "11:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "12:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "23M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "11:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "12:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "125M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "12:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "12:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "25M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "12:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "12:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "127M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "12:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "13:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "27M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "12:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "13:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "129M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "13:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "13:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "29M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "13:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "13:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "131M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "13:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "14:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "31M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "13:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "14:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "133M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "14:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "14:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "33M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "14:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "14:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "135M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "14:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "15:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "35M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "15:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "137M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "15:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "15:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "37M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "15:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "15:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "139M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "15:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "16:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "39M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "16:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "141M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "16:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "16:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "41M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "16:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "16:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "143M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "16:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "17:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "43M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "17:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "145M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "17:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "17:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "45M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "17:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "17:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "147M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "17:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "18:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "47M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "18:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "149M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "18:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "18:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "49M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "18:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "18:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "151M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "18:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "19:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "51M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "19:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "153M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "19:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "19:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "53M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "19:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "155M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "19:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "20:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "55M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "20:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "157M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "20:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "20:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "57M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "20:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "20:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "159M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "20:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "21:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "59M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "21:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "161M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "21:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "21:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "61M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "21:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "21:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "163M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "21:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "22:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "63M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "21:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "22:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "165M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "22:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "22:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "65M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "22:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "22:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "167M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "22:40"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:06"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "23:16"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "67M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:18"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "23:28"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "169M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "23:10"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:36"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "23:46"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "69M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "有坂",
+     "kind": "発",
+     "time": "23:15"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:48"
+    },
+    {
+     "station": "今宮",
+     "kind": "着",
+     "time": "23:58"
+    }
+   ],
+   "direction": "下り"
+  },
+  {
+   "id": "102M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "06:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "06:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "06:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "2M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "06:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "06:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "104M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "06:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "07:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "07:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "4M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "06:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "06:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "07:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "106M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "07:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "07:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "07:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "6M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "07:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "07:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "108M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "07:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "08:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "08:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "8M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "07:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "07:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "08:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "110M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "08:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "08:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "08:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "10M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "08:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "08:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "112M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "08:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "09:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "09:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "12M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "08:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "08:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "09:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "114M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "09:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "09:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "09:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "14M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "09:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "09:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "116M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "09:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "10:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "10:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "16M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "09:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "09:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "10:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "118M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "10:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "10:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "10:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "18M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "10:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "10:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "120M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "10:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "11:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "11:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "20M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "10:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "10:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "11:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "122M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "11:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "11:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "11:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "22M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "11:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "11:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "124M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "11:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "12:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "12:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "24M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "11:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "11:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "12:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "126M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "12:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "12:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "12:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "26M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "12:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "12:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "128M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "12:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "13:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "13:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "28M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "12:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "12:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "13:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "130M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "13:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "13:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "13:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "30M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "13:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "13:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "132M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "13:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "14:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "14:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "32M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "13:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "13:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "14:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "134M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "14:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "14:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "14:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "34M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "14:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "14:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "136M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "14:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "15:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "15:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "36M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "14:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "14:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "15:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "138M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "15:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "15:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "15:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "38M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "15:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "15:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "140M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "15:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "16:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "16:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "40M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "15:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "15:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "16:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "142M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "16:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "16:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "16:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "42M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "16:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "16:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "144M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "16:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "17:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "17:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "44M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "16:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "16:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "17:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "146M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "17:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "17:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "17:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "46M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "17:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "17:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "148M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "17:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "18:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "18:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "48M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "17:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "17:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "18:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "150M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "18:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "18:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "18:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "50M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "18:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "18:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "152M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "18:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "19:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "19:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "52M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "18:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "18:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "19:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "154M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "19:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "19:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "19:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "54M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "19:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "19:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "156M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "19:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "20:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "20:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "56M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "19:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "19:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "20:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "158M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "20:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "20:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "20:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "58M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "20:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "20:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "160M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "20:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "21:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "21:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "60M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "20:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "20:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "21:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "162M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "21:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "21:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "21:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "62M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "21:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "21:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "164M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "21:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "22:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "22:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "64M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "21:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "21:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "22:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "166M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "22:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "22:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "22:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "66M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "22:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "22:58"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "168M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "22:30"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:41"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "23:07"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "23:16"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "68M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "22:45"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "22:56"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "23:28"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "170M",
+   "type": "うみ",
+   "name": "うみくら",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "23:00"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:11"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "23:37"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "23:46"
+    }
+   ],
+   "direction": "上り"
+  },
+  {
+   "id": "70M",
+   "type": "きぼ",
+   "name": "きぼう",
+   "stops": [
+    {
+     "station": "今宮",
+     "kind": "発",
+     "time": "23:15"
+    },
+    {
+     "station": "東秋津",
+     "kind": "発",
+     "time": "23:26"
+    },
+    {
+     "station": "松川橋",
+     "kind": "発",
+     "time": "ﾚ"
+    },
+    {
+     "station": "有坂",
+     "kind": "着",
+     "time": "23:58"
+    }
+   ],
+   "direction": "上り"
+  }
+ ]
+}

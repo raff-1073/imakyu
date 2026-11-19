@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="今坂急行電鉄（今急電鉄）からのお知らせ・プレスリリースの一覧です。">
+    <title>ニュース｜今急電鉄</title>
+        <link rel="stylesheet" href="style.css">
+    <style>
+        .news-item .news-tag{
+            min-width:auto;
+            font-size:12px;
+            line-height:1;
+            padding:5px 10px;
+            border-radius:999px;
+            border:1px solid #0066cc;
+            color:#0066cc;
+            white-space:nowrap;
+            align-self:center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+  <h1>
+    <img src="images/imakyulogo.png" alt="今急電鉄 ロゴ" class="logo-img">
+  </h1>
+</div>
+
+<nav>
+
+<a href="index.html">ホーム</a>
+<a href="route.html">路線・駅</a>
+<a href="timetable.html">時刻表</a>
+<a href="search/index.html">乗換案内</a>
+<a href="../I-net/index.html">I-net</a>
+<a href="celeste.html" class="nav-celeste">
+    <img src="images/celeste-logo.png" alt="セレストクラス" class="nav-celeste-logo">
+</a>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="news">
+
+    <div class="section-title">
+        <h2>ニュース</h2>
+        <p>今急電鉄からのお知らせ・プレスリリースの一覧です。</p>
+    </div>
+
+    <div class="news-item">
+        <span>2026.11.09</span>
+        <span class="news-tag">プレスリリース</span>
+        <a href="news/20261109.html">大川線に新型車両を導入します</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.28</span>
+        <span class="news-tag">イベント</span>
+        <a href="#">IE2000系ありがとうツアー開催のお知らせ</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.25</span>
+        <span class="news-tag">ダイヤ改正</span>
+        <a href="#">ダイヤ改正を実施しました</a>
+    </div>
+
+    <div class="news-item">
+        <span>2026.06.20</span>
+        <span class="news-tag">お知らせ</span>
+        <a href="#">夏の臨時列車について</a>
+    </div>
+
+    <div class="news-item">
+        <span>2025.11.14</span>
+        <span class="news-tag">プレスリリース</span>
+        <a href="news/20251114.html">2025年12月ダイヤ改正について</a>
+    </div>
+
+</section>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <h2>今急電鉄</h2>
+            <p>IMAKYU RAILWAY</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h3>企業情報</h3>
+                <a href="#">会社情報</a>
+                <a href="#">採用情報</a>
+                <a href="#">ニュースリリース</a>
+            </div>
+
+            <div>
+                <h3>ご利用案内</h3>
+                <a href="#">運賃・きっぷ</a>
+                <a href="#">時刻表</a>
+                <a href="#">駅情報</a>
+            </div>
+
+            <div>
+                <h3>サイトについて</h3>
+                <a href="#">利用規約</a>
+                <a href="#">プライバシーポリシー</a>
+                <a href="contact.html">お問い合わせ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Imakyu Railway. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 100) {
+        header.classList.add("shrink");
+    } else {
+        header.classList.remove("shrink");
+    }
+});
+</script>
+
+</main>
+</body>
+</html>
