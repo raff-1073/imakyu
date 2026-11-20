@@ -209,7 +209,7 @@ const LINE_FILES = [
     { file: "大川線.json", color: "#00a0e9" },
     { file: "大野線.json", color: "#d600c8" },
     { file: "朝日線・小出線.json", color: "#ff6600" },
-    { file: "横倉空港線・河合本線・横倉スカイアクセス線.json", color: "#c9a800" },
+    { file: "横倉空港線・河合本線・横倉スカイアクセス線.json", color: "#c9a800", label: "横倉スカイアクセス線" },
     { file: "水上線・西田線.json", color: "#00b7b7" },
     { file: "青山線.json", color: "#3050c0" },
     { file: "秋川本線.json", color: "#b03060" },
@@ -774,7 +774,7 @@ function buildCard(train) {
     const lineName = current.file.replace(/\.json$/, "");
     const dest = destinationOf(train);
     document.getElementById("tcTitle").textContent = trainLabel(train, lineName) + " " + dest + "行";
-    document.getElementById("tcSub").textContent = lineName + " " + (isDown(train, currentRows) ? "下り" : "上り");
+    document.getElementById("tcSub").textContent = (current.label || lineName) + " " + (isDown(train, currentRows) ? "下り" : "上り");
     const legs = chainLegs(lineName, train);
     const firstEvs = trainEvents(legs[0].train);
     const lastEvs = trainEvents(legs[legs.length - 1].train);
@@ -1334,7 +1334,7 @@ document.addEventListener("DOMContentLoaded", () => {
     LINE_FILES.forEach((lf, i) => {
         const o = document.createElement("option");
         o.value = i;
-        o.textContent = lf.file.replace(/\.json$/, "");
+        o.textContent = lf.label || lf.file.replace(/\.json$/, "");
         sel.appendChild(o);
     });
     sel.addEventListener("change", () => {

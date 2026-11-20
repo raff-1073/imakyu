@@ -2912,6 +2912,9 @@ function sampleFirstTrains(allFirstTrains, departTime, withTimeN, noTimeN){
 
 }
 
+// 乗換に必要な最小時間（分）。0〜2分乗換は物理的に不可能なので候補から外す（2026-11-20 悠征の指摘）
+const MIN_TRANSFER_MIN = 3;
+
 function findTransferTrains(from, to, departTime, maxWait, fromLines, toLines){
 
     if(maxWait===undefined){
@@ -3030,9 +3033,9 @@ function findTransferTrains(from, to, departTime, maxWait, fromLines, toLines){
                         secondDepart
                     );
 
-                // 0分～maxWait分だけ許可（直通列車が別ファイルに分かれる今宮駅などの接続を拾うため0分から許可）
+                // MIN_TRANSFER_MIN分～maxWait分だけ許可（今宮駅などで別ファイルに分かれる直通列車は直通ペアとして統合されるため、乗換は3分以上に限る）
                 if(
-                    wait<0 ||
+                    wait<MIN_TRANSFER_MIN ||
                     wait>maxWait
                 ){
                     return;
@@ -3227,7 +3230,7 @@ function findTransfer2Trains(from, to, departTime, fromLines, toLines){
                     item.depart
                 );
 
-            return wait>=0 && wait<=MAX_WAIT;
+            return wait>=MIN_TRANSFER_MIN && wait<=MAX_WAIT;
 
         }).slice(0, limit);
 
